@@ -1,0 +1,6279 @@
+{
+  "VII": {
+    "grade": "VII",
+    "subjects": [
+      "ENGLISH LITERATURE",
+      "MATHS",
+      "SCIENCE",
+      "SST",
+      "HINDI",
+      "SANSKRIT",
+      "CT & AI",
+      "GUJARATI"
+    ],
+    "months": [
+      {
+        "month": "April' 26",
+        "days": 20,
+        "topics": [
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Unit-1",
+            "topic": "Ch-1 The Day The River Spoke"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-1(P1)",
+            "topic": "Large number around us"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "1",
+            "topic": "The Ever-Evolving World of Science"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-1",
+            "topic": "Geographical diversity of India"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ-१ माँ कह एक कहानी"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-1",
+            "topic": "वन्दे भारतमातरम्"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-1",
+            "topic": "Excel:From Data to Decisions"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-1",
+            "topic": "સુંદર સુંદર (કાવ્ય )"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Poem - Try Again"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-2(P1)",
+            "topic": "Arithmetic expression"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "2",
+            "topic": "Exploring Substances:Acidic, Basic and Neutral"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-4",
+            "topic": "New beginnings: Cities and States"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ-२ तीन बुद्धिमान"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-2",
+            "topic": "नित्यं पिबामः सुभाषितरसम्"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch -2",
+            "topic": "ત્રણ સવાલ"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Grammar",
+            "topic": "ch-1 Nouns"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पाठ-१   भाषा , बोली,लिपि तथा व्याकरण"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-1",
+            "topic": "उच्चारण स्थानानि(M)"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "ch-2 Nouns:Functions"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ -२ वर्ण विचार￼, ४ - विलोम शब्द"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-2",
+            "topic": "वर्णविन्यासा :संयोगा :च(M)"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "ch-3 Formation of Adjectives"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "बाल महाभारत",
+            "topic": "पाठ-१,२ पाठ १७,१८(self study / mcqs 3 marks)"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-2(P2)",
+            "topic": "Operation with integers"
+          }
+        ]
+      },
+      {
+        "month": "May' 26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "SCIENCE",
+            "ch": "2",
+            "topic": "Exploring Substances:Acidic, Basic and Neutral"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-3",
+            "topic": "ચક્રવ્યૂહ તૂટ્યો પણ"
+          }
+        ]
+      },
+      {
+        "month": "June' 26",
+        "days": 18,
+        "topics": [
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Unit-1",
+            "topic": "Ch-3 Three Days To See"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-2(P2)",
+            "topic": "Operation with integers"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "3",
+            "topic": "Electricity: Circuits and their Components"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-9",
+            "topic": "From the rulers to the ruled: Types of governments"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ-४ श्रुति सम , पर्यायवाची"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-3",
+            "topic": "मित्राय नमः"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-2",
+            "topic": "Creating 3D Models in Tinkercad"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-3",
+            "topic": "વિરોધી શબ્દો"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Unit-2",
+            "topic": "Ch-1 Animals, Birds And Dr.Dolittle"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-5(P1)",
+            "topic": "Parallel and intersecting lines"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-11",
+            "topic": "From Barter to Money"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पाठ-५ उपसर्ग"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-4",
+            "topic": "न लभ्यते चेत् आम्लं द्राक्षाफलम्"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "શબ્દ સમૂહ માટે એક શબ્દ"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "ch-4 Confusing Adjectives"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ-६ प्रत्यय"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-15",
+            "topic": "गद्यांशा (M)"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-3",
+            "topic": "The Power of Design Thinking"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "પત્ર લેખન"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "ch-5 Determiners"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ-३ फूल और काटा"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-3",
+            "topic": "संधिः (M)"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "ch-6 Verbs- Tenses"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ-४ अनेकार्थी"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch 7",
+            "topic": "समयलेखनम्"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "નિબંધ"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Writing",
+            "topic": "Formal letter"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "बाल महाभारत",
+            "topic": "पाठ-३,४ पाठ १७,१८(self study / mcqs 3 marks)"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-8",
+            "topic": "संख्या"
+          }
+        ]
+      },
+      {
+        "month": "July' 26",
+        "days": 26,
+        "topics": [
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Unit-2",
+            "topic": "Poem - A Funny Man"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-4(P1)",
+            "topic": "Expression using letter-Numbrrs"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-5",
+            "topic": "The rise of Empires"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पाठ-९-लिंग"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-4",
+            "topic": "ટીપાં ની સફર"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Ch-3 Say The Right Thing"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "4",
+            "topic": "The World of Metals and Non-metals"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ-१३ संधि- स्वर संधि"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-5",
+            "topic": "सेवा हि परमो धर्मः"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "ch-7 Verbs-The Perfect Continuous Tenses"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ -२२ गद्यांश"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-5",
+            "topic": "धातुरुपाणि"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-4",
+            "topic": "Python Starter Guide"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-5",
+            "topic": "આપણે ભરોસે"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "ch- 9 Verbs- Finite and Non-finite"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ ४ पानी रे पानी"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-14",
+            "topic": "चित्रवर्णनम् (R)"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "*",
+            "topic": "પુનરાવર્તન"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Writing",
+            "topic": "Travelogue"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "बाल महाभारत",
+            "topic": "पाठ-५,६ पाठ १७,१८(self study / mcqs 3 marks)"
+          }
+        ]
+      },
+      {
+        "month": "August'26",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Unit-3",
+            "topic": "Ch-1 My Brother's Great Invention"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-3(P1)",
+            "topic": "A peek beyond the point"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "4",
+            "topic": "The World of Metals and Nonmetals"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-2",
+            "topic": "Understanding the Weather"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ-५ नहीं होना बीमार"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-6",
+            "topic": "क्रीडाम वयं श्लोकान्त्याक्षरीम्"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-5",
+            "topic": "Basics of Python"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-5",
+            "topic": "આપણે ભરોસે"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Poem - Paper Boats"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-4(P2)",
+            "topic": "Another peek beyond the point"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "5",
+            "topic": "Changes Around Us: Physical and Chemical"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-10",
+            "topic": "The constitution of India: An introduction"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पाठ१४- क्रिया"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-7",
+            "topic": "ईशावास्यम् इदं सर्वम्"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-6",
+            "topic": "જો કરી જાંબુએ"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Grammar",
+            "topic": "Ch-10 Subject-Verb Agreement"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-7(P1)",
+            "topic": "A tale of three intersecting lines"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पाठ-१५ काल"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-९",
+            "topic": "कारक उपपद विभक्ति च"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Ch-11 Verbs-Modals"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ-७,८ पाठ १७,१८(self study / mcqs 3 marks)"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-4",
+            "topic": "शब्द रूप प्रकरणम् (M)"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Ch-12 Phrases- Kinds of Phrases"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Writing",
+            "topic": "Informal letter"
+          }
+        ]
+      },
+      {
+        "month": "September'26",
+        "days": 22,
+        "topics": [
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Unit-3",
+            "topic": "Ch-3 North South East West"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-7(P1)",
+            "topic": "A Tale of three intersecting lines"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "6",
+            "topic": "Adolescence: A Stage of Growth and Change"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-6",
+            "topic": "The Age of Reorganisation"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ-६ गिरिधर कविराय"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "पाठ - १२",
+            "topic": "पत्र लेखन"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-1",
+            "topic": ""
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Grammar",
+            "topic": "Ch-13 Pronouns- Kinds and Antecedents"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "२७) विज्ञापन लेखन"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "To",
+            "topic": "Revision"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Ch-14 Conjunctions: Coordinating and Subordinating"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पाठ-१९-शब्द और वाक्य रचना की अशुद्धि"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "पुनरावर्तन"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-5",
+            "topic": ""
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पाठ-४अनेक शब्द के लिए एक शब्द"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "बाल महाभारत",
+            "topic": "पाठ-९,१० पाठ १७,१८(self study / mcqs 3 marks)"
+          }
+        ]
+      },
+      {
+        "month": "October '26",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "MATHS",
+            "ch": "CH-8(P1)",
+            "topic": "Working with fraction"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "7",
+            "topic": "Heat Transfer in Nature"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-3 (Part-2)",
+            "topic": "Empires and Kingdom:  6 to 10th centuries"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ ७)  वर्षा बहार"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-6",
+            "topic": "Conditional Statements in Python"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-9",
+            "topic": "અલ્લક દલ્લક"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Unit-4",
+            "topic": "Ch-1 The Tunnel"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-6(P1)",
+            "topic": "Number Play"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-6 (Part-2)",
+            "topic": "The State, the Government and You"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "१०)    वचन"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-8",
+            "topic": "हितं मनोहारि च दुर्लभं वचः"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Poem - Travel"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "२६) संवाद लेखन"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-9",
+            "topic": "अन्नाद् भवन्ति भूतानि"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Grammar",
+            "topic": "Ch-15 Voice-Active and Passive"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "बाल महाभारत",
+            "topic": "पाठ-११,१२ पाठ १७,१८(self study / mcqs 3 marks)"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch12",
+            "topic": "अशुद्धि संशोधनम्(M)"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Ch-16 Punctuation"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Writing",
+            "topic": "Story Writing"
+          }
+        ]
+      },
+      {
+        "month": "November' 26",
+        "days": 9,
+        "topics": [
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Unit-4",
+            "topic": "Ch-3 Conquering The Summit"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-3(P2)",
+            "topic": "Finding common ground"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "8",
+            "topic": "Measurement of Time and Motion"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-3",
+            "topic": "Climates of India"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ-८ बिर्जुमहाराज से शास्ततर ￼"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-7",
+            "topic": "The Magic of Computer Vision"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Grammar",
+            "topic": "Ch-17 Sentences-Kinds of Sentences"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "२३) अनुच्छेद लेखन"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-12",
+            "topic": "બે રૂપિયા"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Writing",
+            "topic": "Analytical Paragraph"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-10",
+            "topic": "प्रत्ययाः"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "बाल महाभारत",
+            "topic": "पाठ -१३ पाठ १७,१८(self study / mcqs 3 marks)"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-15",
+            "topic": "गद्यांशा (REVISION)"
+          }
+        ]
+      },
+      {
+        "month": "December' 26",
+        "days": 25,
+        "topics": [
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Unit-5",
+            "topic": "Ch-1 A Homage To Our Brave Soldiers"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-5(P2)",
+            "topic": "Connecting dots"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "9",
+            "topic": "Life Processes in Animals"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-3",
+            "topic": "Climate of India"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "१३)विशेषण"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-8",
+            "topic": "Detecting Bias in AI"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Grammar",
+            "topic": "Ch-18 Sentence - Phrases and Clauses"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-6(P2)",
+            "topic": "Construction and Tillings"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-7",
+            "topic": "The Gupta Era: An Age of tireless creativity"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "२१)मुहावरे और लोकोक्तियों"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-10",
+            "topic": "दशमः कः ?"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Ch-19 Kinds of Clauses- Main and Subordinate"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "१८)वाक्य"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-11",
+            "topic": "द्वीपेषु रम्यः द्वीपोऽण्डमानः"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-9",
+            "topic": "Essentials of Arduino"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ- ९ चिड़िया"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "बाल महाभारत",
+            "topic": "पाठ-१४,१५ पाठ १७,१८(self study / mcqs 3 marks)"
+          }
+        ]
+      },
+      {
+        "month": "January' 27",
+        "days": 22,
+        "topics": [
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Unit-5",
+            "topic": "Poem - My Dear Soldiers"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-1(P2)",
+            "topic": "Geometric twin's"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "10",
+            "topic": "Life Processes in Plants"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-1 (Part-2)",
+            "topic": "The story of Indian farming"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ- १० मीरा के पद"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-10",
+            "topic": "Arduino in Action"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-15",
+            "topic": "સોનાનો કિલ્લો"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Ch-3 Rani Abbakka"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-4 (Part-2)",
+            "topic": "Turning tides:  11th and 12th centuries"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Grammar",
+            "topic": "Ch-20 Subordinate Clauses - Kinds"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "CH-7(P2)",
+            "topic": "Finding Unknown"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "11",
+            "topic": "Light: Shadows and Reflection"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "२०)  विराम चिह्न"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Ch-23 Sentences - Simple, Compound and Complex"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पाठ-४ अनेक शब्दों एक शब्द"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch-12",
+            "topic": "वीराङ्गना पन्नाधाया"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Ch-24 Direct and Indirect Speech"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "Writing",
+            "topic": "Report writing"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पाठ-४ शब्द युग्म"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "REVISION PT 4"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "बाल महाभारत",
+            "topic": "पाठ-१५,१६ पाठ १७,१८(self study / mcqs 3 marks)"
+          }
+        ]
+      },
+      {
+        "month": "February' 27",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "12",
+            "topic": "Earth, Moon and the Sun"
+          },
+          {
+            "subject": "SST",
+            "ch": "Ch-8 (Part-2)",
+            "topic": "Banks and the magic of finance"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ-३१ ई मेल लेखन"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-6",
+            "topic": ""
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "*",
+            "topic": "પુનરાવર્તન"
+          },
+          {
+            "subject": "ENGLISH LITERATURE",
+            "ch": "",
+            "topic": "ASL"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "२०) विराम चिह्न"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "To",
+            "topic": "Revision"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पाठ-४ अनेक शब्दों एक शब्द ,शब्द युग्म"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-10",
+            "topic": ""
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "Pt4 REVISION"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "all the chapters (पाठ्य पुस्तक)"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "Pt 2 &pt3 full portion(व्याकरण)"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "बाल महाभारत",
+            "topic": "पाठ १७,१८(self study / mcqs 3 marks)"
+          }
+        ]
+      }
+    ]
+  },
+  "VIII": {
+    "grade": "VIII",
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "SCIENCE",
+      "SST",
+      "HINDI",
+      "SANSKRIT",
+      "CT & AI",
+      "GUJARATI"
+    ],
+    "months": [
+      {
+        "month": "April' 26",
+        "days": 20,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Unit - 1",
+            "topic": "Ch-1 The Wit that won Hearts"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-1 CH-5",
+            "topic": "NUMBER PLAY"
+          },
+          {
+            "subject": "SST",
+            "ch": "Economics Ch 7",
+            "topic": "Factors of Production"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्य पुस्तक",
+            "topic": "पाठ १ स्वदेश"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "1",
+            "topic": "संगच्छध्वं संवदध्वम्"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-1",
+            "topic": "Exploring Relational Databases"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "પુનરાવર્તન"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Poem - A Concrete Example"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH-1",
+            "topic": "FRACTION IN DISGUISE"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "1",
+            "topic": "Exploring the Investigative World of Science"
+          },
+          {
+            "subject": "SST",
+            "ch": "History Ch 2",
+            "topic": "Reshaping India's Political Map"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "१) भाषा बोली लिपि व्याकरण"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "2",
+            "topic": "अल्पानामपि वस्तूनां संहतिः कार्यसाधिका"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "ગદ્યાંશ"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar",
+            "topic": "Ch-1 Phrases"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-1 CH-2",
+            "topic": "POWER PLAY"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "५)उपसर्ग"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "4",
+            "topic": "सन्धि"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "પદ્યાંશ"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "६) प्रत्यय"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-2 Noun Phrases"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "2",
+            "topic": "The Invisible Living World: Beyond Our Naked Eye"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "२५)अनुच्छेद लेखन"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "વિરોધી શબ્દ, સમાનાર્થી શબ્દ"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-3 Articles"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "श्रीमद्भगवद्गीता",
+            "topic": "१,२,३, Self study/ MCQ 3Marks in Exam"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "શબ્દ રમત, વાક્ય રમત"
+          }
+        ]
+      },
+      {
+        "month": "May' 26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "MATHS",
+            "ch": "PART-1 CH-2",
+            "topic": "POWER PLAY"
+          }
+        ]
+      },
+      {
+        "month": "June' 26",
+        "days": 18,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Unit-1",
+            "topic": "Ch-3 Wisdom Paves the Way"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-1 CH-1",
+            "topic": "A SQUARE AND A CUBE"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "3",
+            "topic": "Health: The Ultimate Treasure"
+          },
+          {
+            "subject": "SST",
+            "ch": "Civics Ch 5",
+            "topic": "Universal Franchise and India’s Electoral System"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठयपुस्तक",
+            "topic": "पाठ २)दो गौरैया"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "3",
+            "topic": "सुभाषितरसं पीत्वा जीवनं सफलं कुरु"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-2",
+            "topic": "Structured Query Language in Action"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-1",
+            "topic": "જીવન જ્યોત"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Unit-2",
+            "topic": "Ch-1 A Tale of Valour"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-1 CH-6",
+            "topic": "WE DISTRIBUTE YET THINGS MULTIPLY"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "पर्यायवाची"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "1",
+            "topic": "कारक-उपपद विभक्ति"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-2",
+            "topic": "ત્યાગવીર દધીચિ"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar",
+            "topic": "Ch-4 Adjectives"
+          },
+          {
+            "subject": "SST",
+            "ch": "Geography Ch 1",
+            "topic": "Natural Resources and their us"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "अनेकार्थी,"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "2",
+            "topic": "शब्दरुप प्रकरणम"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "વાર્તા"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "विलोम शब्द"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-5 Determiners"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "अनेक शब्दों के लिए एक शब्द"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "3",
+            "topic": "धातुरुपाणि"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "પત્ર લેખન"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-6 Verbs Finite and Non finite"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "श्रीमद्भगवद्गीता",
+            "topic": "पाठ ४,५Self study/ MCQ 3Marks in Exam"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "PT-1 REVISION"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Formal Letter"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "३४) अपठित गद्यांश"
+          }
+        ]
+      },
+      {
+        "month": "July' 26",
+        "days": 26,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Unit-2",
+            "topic": "Poem- Sonebody's Mother"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH-6",
+            "topic": "WE DISTRIBUTE YET THINGS MULTIPLY"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "4",
+            "topic": "Electricity: Magnetic and Heating Effects"
+          },
+          {
+            "subject": "SST",
+            "ch": "History Ch 3",
+            "topic": "The Rise of the Marathas"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठयपुस्तक",
+            "topic": "पाठ ३ एक आशीर्वाद"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "16",
+            "topic": "गद्यांशा:"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-3",
+            "topic": "Design Thinking: Exploring and creating \nsolutions"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-4",
+            "topic": "જબરી મધમાખી"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-3 Verghese Kurien"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH6",
+            "topic": "ALGEBRA PLAY"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "२)वर्ण विचार"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "11",
+            "topic": "संख्या"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-5",
+            "topic": "બાનો વાડો"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar",
+            "topic": "Ch-7 Verbs Tense"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "३) स्वर संधि"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "15",
+            "topic": "चित्रवर्णनम"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-8 Verbs Main and Auxiliary"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "एकार्थक शब्द"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "10",
+            "topic": "समयलेखनम"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-9 Verbs Modals"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "विज्ञापन लेखन"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "4",
+            "topic": "प्रणम्यो देशभक्तोऽयं गोपबन्धुर्महामनाः"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Biography"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ ६,७ Self study/ MCQ 3Marks in Exam"
+          }
+        ]
+      },
+      {
+        "month": "August'26",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Unit-3",
+            "topic": "Ch-1 The Case of the Fifth Word"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH-6",
+            "topic": "ALGEBRA"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "5",
+            "topic": "Exploring Forces"
+          },
+          {
+            "subject": "SST",
+            "ch": "Civics Ch 6",
+            "topic": "The Parliamentary System"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "९) लिंग"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "5",
+            "topic": "गीता सुगीता कर्तव्या"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-4",
+            "topic": "Building an App in Code.org"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-6",
+            "topic": "પીડ પરાઈ જાણે રે!"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Poem- The Magic Brush of Dreams"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-1 CH-4",
+            "topic": "QUADRILATERAL"
+          },
+          {
+            "subject": "SST",
+            "ch": "History Ch 4",
+            "topic": "The Colonial Era in India"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "१४) क्रिया"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "6",
+            "topic": "डिजिभारतम् - युगपरिवर्तनम्"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-7",
+            "topic": "કંકોતરી"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar",
+            "topic": "Ch-11 Adverbs"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH-2",
+            "topic": "THE BUDHAYANA-PYTHAGORAS THEOREM"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "6",
+            "topic": "Pressure, Winds, Storms, and Cyclones"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "१५) काल"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "7",
+            "topic": "अव्यय"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-5",
+            "topic": "Designing websites using Google sites-I"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-12 Pronouns"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "22) अपठित गद्यांश"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "8",
+            "topic": "प्रत्ययाः"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Informal Letter"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ ८,९ Self study/ MCQ 3Marks in Exam"
+          }
+        ]
+      },
+      {
+        "month": "September'26",
+        "days": 22,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Unit-3",
+            "topic": "Ch-3 Spectacular Wonders"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH-2",
+            "topic": "THE BAUDHAYANA PYTHAGORAS THEOREM"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्यपुस्तक",
+            "topic": "पाठ ४ ) हरिद्वार"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "5",
+            "topic": "समास"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-5",
+            "topic": "Designing websites using Google sites-I"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-8",
+            "topic": "જીવતી દીવાદાંડી"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar",
+            "topic": "ch-13 Conjunctions"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "13",
+            "topic": "Our Home: Earth, a Unique Life Sustaining Planet"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "२६)संवाद लेखन"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "13",
+            "topic": "पत्रलेखनम"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-1",
+            "topic": ""
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "ch-14 Prepositions"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "श्रुतिसम भिन्नार्थक शब्द("
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "REVISION - PT - 2"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "To",
+            "topic": "Revision"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "तत्सम तद्भव शब्द"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-5",
+            "topic": ""
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "कथा कहानी लेखन"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "श्रीमद्भगवद्गीता",
+            "topic": "पाठ १०,११Self study/ MCQ 3Marks in Exam"
+          }
+        ]
+      },
+      {
+        "month": "October '26",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Unit-4",
+            "topic": "Ch-1 The Cherry Tree"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH-4",
+            "topic": "EXPLORING SOME GEOMETRIC THEMES"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ ५) कबीर के दोहे"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "7",
+            "topic": "मञ्जुलमञ्जूषा सुन्दरसुरभाषा"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-6",
+            "topic": "Designing websites using Google sites-II"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-9",
+            "topic": "શતરંગી ભારત"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Poem- Harvest Hymn"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-1 CH-7",
+            "topic": "PRAPORTIONAL REASONING-1"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "7",
+            "topic": "Particulate nature of matter"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "७) समास"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "9",
+            "topic": "वाच्यपरिवर्तनम"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-10",
+            "topic": "હલેસે હલેસે"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar",
+            "topic": "ch- 15 Voice - Active and Passive"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "8",
+            "topic": "Nature of Matter: Elements, Compounds, and Mixtures"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "११) कारक"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "ch-16 Sentence - Form and Structure"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "१६) वाच्य"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Formal E-mail"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "श्रीमद्भगवद्गीता",
+            "topic": "पाठ १२Self study/ MCQ 3Marks in Exam"
+          }
+        ]
+      },
+      {
+        "month": "November' 26",
+        "days": 9,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Unit-4",
+            "topic": "Ch-3 Waiting for the Rain"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH-3",
+            "topic": "PROPORTIONAL REASONING -2"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ ६ एक टोकरी भर मिट्टी"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-11",
+            "topic": "જામફળ અને જલેબી"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar",
+            "topic": "ch-17 Transformation of Sentences"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-1 CH-7",
+            "topic": "PROPORTIONAL REASONING -1"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "8",
+            "topic": "Nature of Matter: Elements, Compounds, and Mixtures"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "१२) सर्वनाम"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "12",
+            "topic": "अशुद्धि शोधनम"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-7",
+            "topic": "Creafting Stories with NLP"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Analytical Paragraph"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "२५)पत्र लेखन"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "श्रीमद्भगवद्गीता",
+            "topic": "पाठ १३Self study/ MCQ 3Marks in Exam"
+          }
+        ]
+      },
+      {
+        "month": "December' 26",
+        "days": 25,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Unit-5",
+            "topic": "Ch-1 Feathered Friend"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH-3",
+            "topic": "PROPORTIONAL REASONING -2"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्य पुस्तक",
+            "topic": "पाठ ७) मत बाँधों"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "8",
+            "topic": "पश्यत कोणमैशान्यं भारतस्य मनोहरम्"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-8",
+            "topic": "The wonders of AI creation"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-12",
+            "topic": "ક્ષિતિ"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar",
+            "topic": "Ch-18 Kinds of Sub Ordinate Clauses"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH5",
+            "topic": "TALES BY DOTS AND LINES"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "9",
+            "topic": "The Amazing World of Solutes, Solvents, and Solutions"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "व्याकरण",
+            "topic": "१८)वाक्य"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "9",
+            "topic": "कोऽरुक् ? कोऽरुक् ? कोऽरुक् ?"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-13",
+            "topic": "લીલી નજર"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-19 Relative Clauses"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "२१) मुहावरे लोकोक्तियों"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "REVISION - PT - 3"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-9",
+            "topic": "Getting started with virtual robotics"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "१३) विशेषण"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "८) संज्ञा"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "श्रीमद्भगवद्गीता",
+            "topic": "पाठ १४,१५Self study/ MCQ 3Marks in Exam"
+          }
+        ]
+      },
+      {
+        "month": "January' 27",
+        "days": 22,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Unit-5",
+            "topic": "Poem- Magnifying Glass"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "PART-2 CH7",
+            "topic": "AREA"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठ्य पुस्तक",
+            "topic": "पाठ ८) नए मेहमान"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "10",
+            "topic": "सन्निमित्ते वरं त्यागः"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-10",
+            "topic": "Programming robots with VEXcode VR"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-14",
+            "topic": "નિયમો કોના માટે?"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-3 Bibha Chowdhuri"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar",
+            "topic": "Ch-21 Subject Verb Agreement"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "10",
+            "topic": "Light: Mirrors and Lenses"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पाठ ९) आदमी का अनुपात"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "11",
+            "topic": "सन्निमित्ते वरं त्यागः (ख-भागः)"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "ch-15",
+            "topic": "પોર્ટરના પંજામાં"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Ch-24 Direct Indirect Speech"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Report Writing"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "11",
+            "topic": "Keeping Time with the Skies"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "१९) शब्द वाक्य रचना की अशुद्धियां"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "12",
+            "topic": "सम्यग्वर्णप्रयोगेण ब्रह्मलोके महीयते"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "२०) विराम चिह्न"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "श्रीमद्भगवद्गीता",
+            "topic": "पाठ १६,१७Self study/ MCQ 3Marks in Exam"
+          }
+        ]
+      },
+      {
+        "month": "February' 27",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "पाठयपुस्तक",
+            "topic": "पाठ १०) तरुण के स्वप्न"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "REVISION - PT -4"
+          },
+          {
+            "subject": "GUJARATI",
+            "ch": "",
+            "topic": "પુનરાવર્તન"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "Pt 2 & pt 3 full portion(व्याकरण)"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-6",
+            "topic": ""
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "12",
+            "topic": "How Nature Works in Harmony"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "all the chapters (पाठ्य पुस्तक )"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "To",
+            "topic": "Revision"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "श्रीमद्भगवद्गीता",
+            "topic": "पाठ १८Self study/ MCQ 3Marks in Exam"
+          },
+          {
+            "subject": "CT & AI",
+            "ch": "Ch-10",
+            "topic": ""
+          }
+        ]
+      }
+    ]
+  },
+  "IX": {
+    "grade": "IX",
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "SCIENCE",
+      "SST",
+      "HINDI",
+      "SANSKRIT",
+      "AI"
+    ],
+    "months": [
+      {
+        "month": "April' 24",
+        "days": 20,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 1",
+            "topic": "how I taught my grandmother to read"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "1",
+            "topic": "Cordinate geometry"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "2",
+            "topic": "Cell: The building block of life"
+          },
+          {
+            "subject": "SST",
+            "ch": "C6",
+            "topic": "Understanding Democracy"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "संज्ञा, सर्वनाम,"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch - 1",
+            "topic": "सत्यं शिवं सुन्दरं संस्कृतम् (शारदा)"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 1: Introduction to Artificial Intelligence (AI)"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 1",
+            "topic": "Bharat our land"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "14",
+            "topic": "Statistics"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "5",
+            "topic": "Exploring Mixtures and their separation"
+          },
+          {
+            "subject": "SST",
+            "ch": "C7",
+            "topic": "Election"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "उपसर्ग, प्रत्यय,"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "समास"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 4: Introduction to Python"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar",
+            "topic": "Tenses"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "15",
+            "topic": "Introduction to probability"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "निपात, विराम चिह्न,"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "अपठित अवबोधनम"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "अनुच्छेद लेखन,पत्र लेखन (अनौपचारिक )"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "सन्धि:"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing  1",
+            "topic": "Writing a Notice, Informal Invitation"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "चित्र लेखन,संवाद लेखन,"
+          }
+        ]
+      },
+      {
+        "month": "May' 24",
+        "days": 0,
+        "topics": []
+      },
+      {
+        "month": "June' 24",
+        "days": 18,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "prose 2",
+            "topic": "the pot maker"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "2",
+            "topic": "Introduction to polynomials"
+          },
+          {
+            "subject": "SST",
+            "ch": "chp 1",
+            "topic": "Understanding a social science"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "1",
+            "topic": "दो बैलों की कथा"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch - 2",
+            "topic": "सुखस्य मूलं धर्मः धर्मस्य मूलम् अर्थः"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 1: Communication Skills-I"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem",
+            "topic": "Gifts of Grace- honouring our vocations"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "9",
+            "topic": "Exploring algebric identities"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "3",
+            "topic": "Tissues in action"
+          },
+          {
+            "subject": "SST",
+            "ch": "E8",
+            "topic": "Building Block"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "2",
+            "topic": "रैदास के पद"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch-3",
+            "topic": "आत्मवत्सर्वभूतेषु यः पश्यति सः पण्डितः"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 4: Introduction to Python"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Writing a Letter to Editor, Formal E-mail"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "5",
+            "topic": "Exploring Mixtures and their separation"
+          },
+          {
+            "subject": "SST",
+            "ch": "H4",
+            "topic": "Early Humans and beginnings"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "अपठित गद्यांश,  मुहावरे, समनार्थी शब्द"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar 1",
+            "topic": "Modal Auxiliaries and their functions in expressing ability, obligation, permission, possibility and advice"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "8",
+            "topic": "Laws of motion"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "REVISION - PT -1"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "शब्दरुपाणि"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Informal Invitation"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "REVISION - PT -1"
+          }
+        ]
+      },
+      {
+        "month": "July' 25",
+        "days": 26,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 3",
+            "topic": "winds of change"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "3",
+            "topic": "Number system"
+          },
+          {
+            "subject": "SST",
+            "ch": "G3",
+            "topic": "Atmosphere and Climate"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "3",
+            "topic": "क्या लिखूँ"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 2: AI Project Cycle"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing 2",
+            "topic": "Factual Description, Magazine Article"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "12",
+            "topic": "Linear equations in two variables"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "6",
+            "topic": "Structure of an atom"
+          },
+          {
+            "subject": "SST",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "4",
+            "topic": "राम-लक्ष्मण-परशुराम संवाद"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "पत्रलेखनम"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 4: Introduction to Python"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 3",
+            "topic": "canvas of soil"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "3",
+            "topic": "Tissues in action"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "5",
+            "topic": "संवादहीन"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "कारक और उपपद विभक्ति"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar 2",
+            "topic": "Reported Speech"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "8",
+            "topic": "Laws of motion"
+          }
+        ]
+      },
+      {
+        "month": "August'24",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 3",
+            "topic": "Vitamin -M"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "6",
+            "topic": "Sequence and progression"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "6",
+            "topic": "Structure of an atom"
+          },
+          {
+            "subject": "SST",
+            "ch": "H",
+            "topic": "State and Society"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "6",
+            "topic": "भारति, जय, विजयकरे"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch -4",
+            "topic": "न खलु वतस्तेजसो  हेतुः"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 2: Self-Management Skills-I"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Conditional Clause – Type 1"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "4",
+            "topic": "Introduction to Euclids geometry"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "12",
+            "topic": "Patterns in life: Diversity and Classification"
+          },
+          {
+            "subject": "SST",
+            "ch": "G2",
+            "topic": "shaping of the Earth's surface"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "7",
+            "topic": "ऐसी भी बातें होती हैं (लता मंगेशकर से साक्षात्कार"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch -5",
+            "topic": "लौहतुला"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 4",
+            "topic": "i cannot remember my mother"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "5",
+            "topic": "Lines and angles"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "8",
+            "topic": "Momentum, Conservation of Momentum"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "8",
+            "topic": "आखिरी चट्टान तक"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "धातुरुपाणि"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar 3",
+            "topic": "Determiners"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision & PT-2"
+          }
+        ]
+      },
+      {
+        "month": "September'24",
+        "days": 22,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 5",
+            "topic": "the world of limitless possibilities"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "6",
+            "topic": "Structure of an atom"
+          },
+          {
+            "subject": "SST",
+            "ch": "E9",
+            "topic": "The Price Puzzle"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "9",
+            "topic": "झाँसी की रानी"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch - 6",
+            "topic": "मनः पूतं समाचरेत्"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 3: Neural Network"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing 3",
+            "topic": "Subject–Verb Concord"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "7",
+            "topic": "Triangles"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "9",
+            "topic": "Work and Energy"
+          },
+          {
+            "subject": "SST",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "10",
+            "topic": "रीढ़ की हड्डी"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch - 7",
+            "topic": "उपायं चिन्तयेत्  प्राज्ञस्तथापायं च चिन्तयेत्"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 4",
+            "topic": "nine Gold medals"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "12",
+            "topic": "Patterns in life: Diversity and Classification"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "अपठित गद्यांश,  मुहावरे, समनार्थी शब्द"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "प्रत्ययाः"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 5",
+            "topic": ""
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "चित्रवर्णन (Half)"
+          }
+        ]
+      },
+      {
+        "month": "October '24",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 6",
+            "topic": "Twin melodies"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "10",
+            "topic": "Quadrilaterals"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "7",
+            "topic": "Atoms and molecules"
+          },
+          {
+            "subject": "SST",
+            "ch": "G10",
+            "topic": "Oceans and current Life"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "अपठित गद्यांश,"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "पत्रलेखनम"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 3: ICT Skills-I"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 5",
+            "topic": "Determiners"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "11",
+            "topic": "Circles"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "9",
+            "topic": "Work and Energy"
+          },
+          {
+            "subject": "SST",
+            "ch": "H12",
+            "topic": "Building a resilient India"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "अनुच्छेद लेखन,पत्र लेखन (अनौपचारिक )"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "संख्या"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 6",
+            "topic": "A friend found in music"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "12",
+            "topic": "Patterns in life: Diversity and Classification"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "चित्र लेखन,संवाद लेखन,"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "अव्यय"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar 4",
+            "topic": ""
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "REVISION - PT - 2"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "REVISION - PT - 2"
+          }
+        ]
+      },
+      {
+        "month": "November' 24",
+        "days": 9,
+        "topics": [
+          {
+            "subject": "MATHS",
+            "ch": "8",
+            "topic": "Mensuration -Area and perimeter"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "7",
+            "topic": "Atoms and molecules"
+          },
+          {
+            "subject": "SST",
+            "ch": "C14",
+            "topic": "Authority"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch - 8",
+            "topic": "अन्नाद् आनन्दं प्रति"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 4: Entrepreneurial Skills-I"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 6",
+            "topic": "carrier of words"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "13",
+            "topic": "Surface area and volume"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "12",
+            "topic": "Patterns in life: Diversity and Classification"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 7",
+            "topic": "Clauses – Noun Clause, Relative Clause"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "10",
+            "topic": "sound"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 7",
+            "topic": "words"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 7",
+            "topic": "Writing Descriptive, Narrative Essay"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "",
+            "topic": "Revision"
+          }
+        ]
+      },
+      {
+        "month": "December' 24",
+        "days": 25,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 7",
+            "topic": "follow that dream"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "7",
+            "topic": "Atoms and molecules"
+          },
+          {
+            "subject": "SST",
+            "ch": "E15",
+            "topic": "From Ideas to Start up"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "11",
+            "topic": "मैं और मेरा देश"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 5: Green Skills-I"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "10",
+            "topic": "sound"
+          },
+          {
+            "subject": "SST",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "12",
+            "topic": "घर की याद"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch- 9",
+            "topic": "कृतं प्रतिकृतं भूयादेष धर्मः सनातनः"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 10",
+            "topic": "believe in yourself"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "11",
+            "topic": "Reproduction: How life continues"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch - 10",
+            "topic": "णमो अरिहन्ताणम्"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision & PT-3"
+          }
+        ]
+      },
+      {
+        "month": "January' 25",
+        "days": 22,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar 5",
+            "topic": ""
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "13",
+            "topic": "Earth as a system: Energy,matter and Life"
+          },
+          {
+            "subject": "SST",
+            "ch": "G11",
+            "topic": "Life on Earth"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 8",
+            "topic": ""
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "",
+            "topic": "Sound"
+          },
+          {
+            "subject": "SST",
+            "ch": "H13",
+            "topic": "India and the world"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "REVISION - PT - 4"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "REVISION - PT - 4"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 8",
+            "topic": ""
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 9",
+            "topic": ""
+          }
+        ]
+      },
+      {
+        "month": "February' 25",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "SST",
+            "ch": "E16",
+            "topic": "Smart ways to manage analysis"
+          },
+          {
+            "subject": "SST",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision & PT-4"
+          }
+        ]
+      }
+    ]
+  },
+  "X": {
+    "grade": "X",
+    "subjects": [
+      "ENGLISH",
+      "MATHS",
+      "SCIENCE",
+      "SST",
+      "HINDI",
+      "SANSKRIT",
+      "AI"
+    ],
+    "months": [
+      {
+        "month": "April' 26",
+        "days": 20,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 1",
+            "topic": "A Letter to God"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "1",
+            "topic": "REAL NUMBERS"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "5",
+            "topic": "Life Processes"
+          },
+          {
+            "subject": "SST",
+            "ch": "C1",
+            "topic": "Power Sharing"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "1",
+            "topic": "कबीर – साखी (स्पर्श)"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "ch -1",
+            "topic": "शुचिपर्यावरण"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 1: Introduction to Artificial Intelligence (AI)"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing 1",
+            "topic": "Letter Writing"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "2",
+            "topic": "POLYNOMIALS"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "1",
+            "topic": "CHEMICAL REACTION AND EQUATION"
+          },
+          {
+            "subject": "SST",
+            "ch": "E1",
+            "topic": "Development"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "पदबंध, मुहावरे"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch -2",
+            "topic": "बुदधिर्बलवती सदा"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 4: Introduction to Python"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 1",
+            "topic": "Dust of Snow"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "3",
+            "topic": "PAIR OF LIN. EQNS IN TWO VARIABLES"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "9",
+            "topic": "Light - Reflection and Refraction"
+          },
+          {
+            "subject": "SST",
+            "ch": "H1",
+            "topic": "The Rise of Nationalism in Europe"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "2",
+            "topic": "बड़े भाई साहब (स्पर्श), मनुष्यता"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "संस्कृत भाषायाम अनुवाद:"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 2",
+            "topic": "Fire and Ice"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "4",
+            "topic": "QUADRATIC EQUATIONS"
+          },
+          {
+            "subject": "SST",
+            "ch": "G1",
+            "topic": "Resource and Development"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "अपठित गद्यांश,ई-मेल लेखन"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "सन्धिकार्य"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 3",
+            "topic": "A Tiger in the Zoo"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "अनुच्छेद लेखन, पत्र लेखन (औपचारिक)"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "पत्रलेखनम"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 1",
+            "topic": "A Triumph of Surgery"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "सूचना लेखन, विज्ञापन लेखन"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 2",
+            "topic": "The thief story"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar 1",
+            "topic": "Tenses"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar 2",
+            "topic": "Modals"
+          }
+        ]
+      },
+      {
+        "month": "May' 26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "MATHS",
+            "ch": "15",
+            "topic": "PROBABILITY"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 1: Communication Skills-I"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "SUMMER VACATION"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 4: Introduction to Python"
+          }
+        ]
+      },
+      {
+        "month": "June' 26",
+        "days": 18,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 2",
+            "topic": "Nelson Mandela"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "14",
+            "topic": "PROBABILITY"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "5",
+            "topic": "Life Processes"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "3",
+            "topic": "डायरी का एक पन्ना"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch -4",
+            "topic": "शिशुलालनम"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 3",
+            "topic": "Two stories about flying"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "7",
+            "topic": "COORDINATE GEOMETRY"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "2",
+            "topic": "ACID BASES AND SALT"
+          },
+          {
+            "subject": "SST",
+            "ch": "G2",
+            "topic": "Forest and Wildlife Resources"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "4",
+            "topic": "मीरा के पद (स्पर्श)"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch -5",
+            "topic": "जननी तुल्यवत्सला"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 2: AI Project Cycle"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 4",
+            "topic": "How to Tell Wild Animals"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "5",
+            "topic": "ARITHMETIC PROGRESSION"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "9",
+            "topic": "Light - Reflection and Refraction"
+          },
+          {
+            "subject": "SST",
+            "ch": "E2",
+            "topic": "Sectors of Indian Economy"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "5",
+            "topic": "तताँरा -वामीरो कथा (स्पर्श)"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "समासकार्यम"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 4: Introduction to Python"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 5",
+            "topic": "The Ball Poem"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "13",
+            "topic": "our environment"
+          },
+          {
+            "subject": "SST",
+            "ch": "C2",
+            "topic": "Federalism"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "रचना आधार पर वाक्य रूपांतरण"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "पत्रलेखनम"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing 2",
+            "topic": "Analytical Paragraph"
+          },
+          {
+            "subject": "SST",
+            "ch": "H2",
+            "topic": "Nationalism in India"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "समास"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 3",
+            "topic": "The Midnight Visitor"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 4",
+            "topic": "A Question of Trust"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar 3",
+            "topic": "Determiners"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 2: Self-Management Skills-I"
+          }
+        ]
+      },
+      {
+        "month": "July' 26",
+        "days": 26,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 4",
+            "topic": "From the Diary of Anne Frank"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "13",
+            "topic": "STATISTICS"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "6",
+            "topic": "control and coordination"
+          },
+          {
+            "subject": "SST",
+            "ch": "H2",
+            "topic": "Nationalism in India"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "6",
+            "topic": "पर्वत प्रदेश में पावस"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch -6",
+            "topic": "सुभाषितानि"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 5",
+            "topic": "Glimpses of India"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "10",
+            "topic": "CIRCLES"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "10",
+            "topic": "Light - Reflection and Refraction"
+          },
+          {
+            "subject": "SST",
+            "ch": "C3",
+            "topic": "Gender Religion and Caste"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "7",
+            "topic": "अब कहाँ दूसरे के दुःख से दुखी होने वाले"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "प्रत्यया:"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 6",
+            "topic": "Amanda!"
+          },
+          {
+            "subject": "SST",
+            "ch": "G3",
+            "topic": "Water Resources"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "8",
+            "topic": "कर चले हम फिदा"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "पत्रलेखनम"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 7",
+            "topic": "The Trees"
+          },
+          {
+            "subject": "SST",
+            "ch": "E3",
+            "topic": "Money and Credit"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "9",
+            "topic": "हरिहर काका- संचयन"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 5",
+            "topic": "Footprints without Feet"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "लघुकथा लेखन"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 3: Neural Network"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 6",
+            "topic": "The Making of a Scientist"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar 4",
+            "topic": "Subject – verb concord"
+          }
+        ]
+      },
+      {
+        "month": "August'26",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 6",
+            "topic": "Mijbil the Otter"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "11",
+            "topic": "AREA RELATED TO CIRCLES"
+          },
+          {
+            "subject": "SST",
+            "ch": "G4",
+            "topic": "Agriculture"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 7",
+            "topic": "Madam Rides the Bus"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "12",
+            "topic": "SURFACE AREA AND VOLUME"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "6",
+            "topic": "control and coordination"
+          },
+          {
+            "subject": "SST",
+            "ch": "C4",
+            "topic": "Political Parties"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 8",
+            "topic": "Fog"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "4",
+            "topic": "carbon and its compunds"
+          },
+          {
+            "subject": "SST",
+            "ch": "H3",
+            "topic": "The Making of Global World"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch -7",
+            "topic": "सौहार्द प्रकृते: शोभा"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 3: ICT Skills-I"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 9",
+            "topic": "The Tale of Custard the Dragon"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "8",
+            "topic": "Heredity"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "10",
+            "topic": "टोपी  शुक्ला - संचयन"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "समयलेखनम"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 7",
+            "topic": "The Necklace"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "11",
+            "topic": "तोप"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "वाच्यपरिवर्तनम"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 8",
+            "topic": "Bholi"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Grammar 5",
+            "topic": "Reported speech"
+          }
+        ]
+      },
+      {
+        "month": "September'26",
+        "days": 22,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 8",
+            "topic": "The Sermon at Benares"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "8",
+            "topic": "INTRODUCTION TO TRIGONOMETRY"
+          },
+          {
+            "subject": "SST",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "12",
+            "topic": "सपनों के-से-दिन (संचयन)"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch -8",
+            "topic": "विचित्र: साक्षी"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 4: Entrepreneurial Skills-I"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Prose 9",
+            "topic": "The Proposal (Play)"
+          },
+          {
+            "subject": "MATHS",
+            "ch": "9",
+            "topic": "APPLICATION OF TRIGONOMETRY"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "13",
+            "topic": "तीसरी कसम के शिल्पकार"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch-9",
+            "topic": "सूक्तय:"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Poem 10",
+            "topic": "For Anne Gregory"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "8",
+            "topic": "Heredity"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "14",
+            "topic": "पतझर में टूटी पत्तियाँ"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "पत्रलेखनम"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "SR 9",
+            "topic": "The Book that Saved the Earth"
+          }
+        ]
+      },
+      {
+        "month": "October '26",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "MATHS",
+            "ch": "6",
+            "topic": "TRIANGLES"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "3",
+            "topic": "METAL AND NON-METALS"
+          },
+          {
+            "subject": "SST",
+            "ch": "H4",
+            "topic": "Print Culture and the Modern World"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "15",
+            "topic": "कारतूस"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "Ch -12",
+            "topic": "अन्योक्तय:"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "7",
+            "topic": "How do Organisms Reproduce"
+          },
+          {
+            "subject": "SST",
+            "ch": "G5",
+            "topic": "Mineral and Energy Resources"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "16",
+            "topic": "आत्मत्राण"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "अशुद्धि संशोधनम"
+          },
+          {
+            "subject": "AI",
+            "ch": "",
+            "topic": "Unit 5: Green Skills-I"
+          },
+          {
+            "subject": "SST",
+            "ch": "E4",
+            "topic": "Globalization and the Indian Economy"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "अनुच्छेद लेखन, पत्र लेखन (औपचारिक)"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "अव्यया:"
+          }
+        ]
+      },
+      {
+        "month": "November' 26",
+        "days": 9,
+        "topics": [
+          {
+            "subject": "SST",
+            "ch": "G6",
+            "topic": "Manufacturing Industries"
+          },
+          {
+            "subject": "SCIENCE",
+            "ch": "7",
+            "topic": "How do Organisms Reproduce."
+          },
+          {
+            "subject": "SST",
+            "ch": "C5",
+            "topic": "Outcomes of Democracy"
+          },
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "REVISION"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "SAMPLE PAPERS"
+          }
+        ]
+      },
+      {
+        "month": "December' 26",
+        "days": 25,
+        "topics": [
+          {
+            "subject": "HINDI",
+            "ch": "",
+            "topic": "SAMPLE PAPERS"
+          },
+          {
+            "subject": "SANSKRIT",
+            "ch": "",
+            "topic": "REVISION"
+          }
+        ]
+      },
+      {
+        "month": "January' 26",
+        "days": 22,
+        "topics": []
+      },
+      {
+        "month": "February' 26",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "`",
+            "topic": ""
+          }
+        ]
+      }
+    ]
+  },
+  "XI-SCI": {
+    "grade": "XI-SCI",
+    "subjects": [
+      "ENGLISH",
+      "MATHEMATICS",
+      "BIOLOGY",
+      "PHYSICS",
+      "CHEMISTRY",
+      "INFORMATICS & PRACTICES",
+      "PHYSICAL EDUCATION"
+    ],
+    "months": [
+      {
+        "month": "April' 24",
+        "days": 20,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "unseen passage"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "6",
+            "topic": "PERMUTATIONS AND COMBINATIONS"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "8",
+            "topic": "cell Unit of life"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "0",
+            "topic": "Besic Mathematical tools"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "1",
+            "topic": "Some Basic Concepts of Chemistry"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "1",
+            "topic": "Computer System"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "1",
+            "topic": "Changing trends and career in physical education"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Writing Skills (Introduction)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "7",
+            "topic": "BINOMIAL THEOREM"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "9",
+            "topic": ""
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "1",
+            "topic": "Units and Measurement"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "1",
+            "topic": "SETS"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "2",
+            "topic": "Olympic value education"
+          }
+        ]
+      },
+      {
+        "month": "June' 24",
+        "days": 18,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  1",
+            "topic": "The Portrait of a Lady"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "14",
+            "topic": "PROBABILITY"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "9",
+            "topic": "Biomolecules"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "2",
+            "topic": "Motion in a Straight Line"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "2",
+            "topic": "Atomic Structure"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "2",
+            "topic": "Getting started with Python"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "3",
+            "topic": "Physical fitness, wellness and lifestyle"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill 1",
+            "topic": "A Photograph (Poem)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "13",
+            "topic": "STATISTICS"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "10",
+            "topic": "Cell cycle and Division"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "3",
+            "topic": "Motion in a Plane"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "3",
+            "topic": "Python fundamentals"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Snapshots 1",
+            "topic": "The Summer of the Beautiful White Horse"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "11",
+            "topic": "INTRODUCTION TO 3D GEOMETRY"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Notice Writing"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "letter to editor"
+          }
+        ]
+      },
+      {
+        "month": "July' 24",
+        "days": 26,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  2",
+            "topic": "We’re Not Afraid to Die…if We Can All Be Together"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "3",
+            "topic": "TRIGONOMETRIC FUNCTIONS"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "4",
+            "topic": "Laws of Motion"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "3",
+            "topic": "Periodic classification"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "4",
+            "topic": "Data handling"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "4",
+            "topic": "physical education and sports for CWSN"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Snapshots 2",
+            "topic": "The Address"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "2",
+            "topic": "RELATIONS AND FUNCTIONS"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "5",
+            "topic": "Work, Energy and Power"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "5",
+            "topic": "Flow of control"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  2",
+            "topic": "Laburnum top"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Invitation and article"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "11",
+            "topic": "Photosynthesis"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "12",
+            "topic": "Respiration"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "14",
+            "topic": "Breathing and Exchange of gases"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "5",
+            "topic": "Yoga"
+          }
+        ]
+      },
+      {
+        "month": "August'24",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  3",
+            "topic": "Discovering Tut: the Saga Continues"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "12",
+            "topic": "LIMITS AND DERIVATIVES"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "6",
+            "topic": "System of Particles & Rotational Motion"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "4",
+            "topic": "Chemical bonding"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "5",
+            "topic": "Flow of control"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  5",
+            "topic": "The Ailing planet"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "8",
+            "topic": "SEQUENCES AND SERIES"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "15",
+            "topic": "Body Fluids and Circulation"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "7",
+            "topic": "Gravitation"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "6",
+            "topic": "List manipulation"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill 3",
+            "topic": "The voice of rain"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "16",
+            "topic": "Excretion and Elimination of Waste"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "writing",
+            "topic": "job application and report writing"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "6",
+            "topic": "Test and measurement in sports"
+          }
+        ]
+      },
+      {
+        "month": "September'24",
+        "days": 22,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  5",
+            "topic": "Adventure"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "9",
+            "topic": "STRAIGHT LINES"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "17",
+            "topic": "Locomotion and Movement"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "8",
+            "topic": "Mechanical Properties of Solid"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "6",
+            "topic": "List manipulation"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill 4",
+            "topic": "Childhood"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "10",
+            "topic": "CONIC SECTIONS"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "18",
+            "topic": "Neural Control and coordination"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "9",
+            "topic": "Mechanical Properties of Fluid"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Article"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "7",
+            "topic": "Fundamentals of anatomy and physiology in sports"
+          }
+        ]
+      },
+      {
+        "month": "October '24",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  7",
+            "topic": "The silk road"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "4",
+            "topic": "COMPLEX NUMBERS & QUAD. EQN"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "19",
+            "topic": "Chemical Control and Integration"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "9",
+            "topic": "Mechanical Properties of Fluid"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "7",
+            "topic": "Redox Reaction"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "7",
+            "topic": "Dictionaries"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill 4",
+            "topic": "Childhood"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "5",
+            "topic": "LINEAR INEQUALITIES"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "5",
+            "topic": "Morphology of flowering plants"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "10",
+            "topic": "Thermal Properties of Matter"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill 5.",
+            "topic": "Father to son"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "6",
+            "topic": "Anatomy of Flowwring plants"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "8",
+            "topic": "General organic chemistry"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "8",
+            "topic": "Fundamentals of kinesiology and biomechanics in sports"
+          }
+        ]
+      },
+      {
+        "month": "November' 24",
+        "days": 9,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "10",
+            "topic": "Thermal Properties of Matter"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "11",
+            "topic": "Emerging Trends"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "7",
+            "topic": "Structural Organization in Animals"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "9",
+            "topic": "Hydrocarbon"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "1",
+            "topic": "The Living World"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "9",
+            "topic": "Psychology and sports"
+          }
+        ]
+      },
+      {
+        "month": "December' 24",
+        "days": 25,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "13",
+            "topic": "OSCILLATION"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "6",
+            "topic": "Equilibrium"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "9",
+            "topic": "Database concepts"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "2",
+            "topic": "Biological Classifiation"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "14",
+            "topic": "WAVES"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "3",
+            "topic": "Plant Kingdom"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "11",
+            "topic": "THERMODYNAMICS"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "4",
+            "topic": "Animal Kingdom"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "10",
+            "topic": "Trainning and doping in sports"
+          }
+        ]
+      },
+      {
+        "month": "January' 25",
+        "days": 22,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "11",
+            "topic": "THERMODYNAMICS"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "5",
+            "topic": "Thermodynamics"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "10",
+            "topic": "Simple queries in sql"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "12",
+            "topic": "KINETIC THEORY OF GASES"
+          }
+        ]
+      },
+      {
+        "month": "February' 25",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision"
+          }
+        ]
+      }
+    ]
+  },
+  "XI-COM": {
+    "grade": "XI-COM",
+    "subjects": [
+      "ENGLISH",
+      "ACCOUNTANCY",
+      "ECONOMICS",
+      "BUSINESS STUDIES",
+      "INFORMATICS & PRACTICES",
+      "APPLIED MATHS",
+      "PHYSICAL EDUCATION"
+    ],
+    "months": [
+      {
+        "month": "April' 26",
+        "days": 20,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "unseen passage"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "1",
+            "topic": "Introduction to Accounting"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Micro-1",
+            "topic": "Introduction to micro economics"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "1",
+            "topic": "Nature and Purpose of business"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "1",
+            "topic": "Computer System"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "7",
+            "topic": "Permutations & Combinations"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "1",
+            "topic": "Changing trends and career in physical education"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Writing Skills (Introduction)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "3",
+            "topic": "Recording of Transactions - I"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Stats-1",
+            "topic": "Introduction to Statistics"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "1",
+            "topic": "Binary Numbers"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "15",
+            "topic": "Taxations"
+          }
+        ]
+      },
+      {
+        "month": "May' 26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "2",
+            "topic": "Olympic value education"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "16",
+            "topic": "Utility Bills"
+          }
+        ]
+      },
+      {
+        "month": "June' 26",
+        "days": 18,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  1",
+            "topic": "The Portrait of a Lady"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "3",
+            "topic": "Recording of Transactions - I"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Micro-2",
+            "topic": "Consumer's Equilibrium"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "2",
+            "topic": "Forms of Business Organization"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "2",
+            "topic": "Getting started with Python"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "2",
+            "topic": "Indices & Logarithms"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "3",
+            "topic": "Physical fitness, wellness and lifestyle"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill 1",
+            "topic": "A Photograph (Poem)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "2",
+            "topic": "Theory Base of Accounting"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Stats-2",
+            "topic": "Collection, organization of data"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "3",
+            "topic": "Public Private and Global Enterprise"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "3",
+            "topic": "Python fundamentals"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "3",
+            "topic": "Quantitative Aptitude"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Snapshots 1",
+            "topic": "The Summer of the Beautiful White Horse"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Notice Writing"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "letter to editor"
+          }
+        ]
+      },
+      {
+        "month": "July' 26",
+        "days": 26,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  2",
+            "topic": "We’re Not Afraid to Die…if We Can All Be Together"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "4",
+            "topic": "Recording of Transaction - II"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Micro-3",
+            "topic": "Demand"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "4",
+            "topic": "Business Service"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "4",
+            "topic": "Data handling"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "8",
+            "topic": "Logical Reasoning"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "4",
+            "topic": "physical education and sports for CWSN"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Snapshots 2",
+            "topic": "The Address"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Micro-4",
+            "topic": "Elasticity of Demand"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "5",
+            "topic": "Flow of control"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "5",
+            "topic": "Sets & Relations"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  2",
+            "topic": "Laburnum top"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Stats-2.1",
+            "topic": "Presentation of data"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Invitation and article"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "5",
+            "topic": "Yoga"
+          }
+        ]
+      },
+      {
+        "month": "August'26",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  3",
+            "topic": "Discovering Tut: the Saga Continues"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "5",
+            "topic": "Bank Reconciliation Statement"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Stats- 3 & 4",
+            "topic": "Measure of Central Tendency - Mean"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "5",
+            "topic": "Emerging Modes of Business"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "5",
+            "topic": "Flow of control"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "6",
+            "topic": "Sequence & Series"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  5",
+            "topic": "The Ailing planet"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "6",
+            "topic": "Trial Balance and Rectification of Errors"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Stats-2.2",
+            "topic": "Presentation of data"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "6",
+            "topic": "Social Responsibilty of Business and Business Ethics"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "6",
+            "topic": "List manipulation"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "14",
+            "topic": "Compound Interest & Annuity"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill 3",
+            "topic": "The voice of rain"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "writing",
+            "topic": "job application and report writing"
+          }
+        ]
+      },
+      {
+        "month": "September'26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ECONOMICS",
+            "ch": "Micro-5",
+            "topic": "Production Function"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "6",
+            "topic": "Test and measurement in sports"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  8",
+            "topic": "Silk Road"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "6",
+            "topic": "Trial Balance and Rectification of Errors"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Stats-2.3",
+            "topic": "Measure of Central Tendency - Median Mode"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "7",
+            "topic": "Sources of Business Finance"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "6",
+            "topic": "List manipulation"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "12",
+            "topic": "Probability"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill 4",
+            "topic": "Childhood"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "7",
+            "topic": "Depreciation and Provision and Reserve"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "9",
+            "topic": "Functions"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Writing",
+            "topic": "Article"
+          }
+        ]
+      },
+      {
+        "month": "October '26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ECONOMICS",
+            "ch": "Micro-6 & 7",
+            "topic": "Cost and Revenue"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "7",
+            "topic": "Fundamentals of anatomy and physiology in sports"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill  7",
+            "topic": "Adventure"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "7",
+            "topic": "Depreciation and Provision and Reserve"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Micro-8",
+            "topic": "Producer's Equilibrium"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "8",
+            "topic": "Small Business or Small scale enterprise"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "7",
+            "topic": "Dictionaries"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "10",
+            "topic": "Limits & Derivatives"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill 4",
+            "topic": "Childhood"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "11",
+            "topic": "Differentiation"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "Hornbill 5.",
+            "topic": "Father to son"
+          }
+        ]
+      },
+      {
+        "month": "November' 26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "8",
+            "topic": "Financial Statement - I"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Micro-9",
+            "topic": "Supply & Elasticity of Supply"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "8",
+            "topic": "Fundamentals of kinesiology and biomechanics in sports"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Stats-7",
+            "topic": "Correlation"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "9",
+            "topic": "Internal Trade"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "11",
+            "topic": "Emerging Trends"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "13",
+            "topic": "Descriptive Statistics"
+          }
+        ]
+      },
+      {
+        "month": "December' 26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "9",
+            "topic": "Financial Statement - II"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Micro-10",
+            "topic": "Main Market forms"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "9",
+            "topic": "Psychology and sports"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Stats-8",
+            "topic": "Index Number"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "10",
+            "topic": "International Trade"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "9",
+            "topic": "Database concepts"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "13",
+            "topic": "Descriptive Statistics (Conti)"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "Micro-11",
+            "topic": "Price determination and Market Equilibrium"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "14",
+            "topic": "2D Geometry With circle & Parabola"
+          }
+        ]
+      },
+      {
+        "month": "January' 27",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "10",
+            "topic": "Accounts from Incomplete Records"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "10",
+            "topic": "Trainning and doping in sports"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "10",
+            "topic": "Simple queries in sql"
+          }
+        ]
+      }
+    ]
+  },
+  "XII-SCI": {
+    "grade": "XII-SCI",
+    "subjects": [
+      "ENGLISH",
+      "MATHEMATICS",
+      "BIOLOGY",
+      "PHYSICS",
+      "CHEMISTRY",
+      "INFORMATICS & PRACTICES",
+      "PHYSICAL EDUCATION"
+    ],
+    "months": [
+      {
+        "month": "April' 26",
+        "days": 20,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "1",
+            "topic": "THE LAST LESSON (FLAMINGO)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "3",
+            "topic": "MATRICES"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "1",
+            "topic": "Sexual Reproduction in Flowering plants"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "1",
+            "topic": "Electric Charges and Fields"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "1",
+            "topic": "SOLUTION"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "4",
+            "topic": "Revision of Database Concepts"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "2",
+            "topic": "CHILDREN AND WOMEN IN SPORTS"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "1",
+            "topic": "THE THIRD LEVEL  (VISTAS)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "4",
+            "topic": "DETERMINANTS"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "2",
+            "topic": "Human Reproduction"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "2",
+            "topic": "Electric Potential and Capacitance"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "5",
+            "topic": "SQl Functions"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "3",
+            "topic": "YOGA AS PREVENTIVE MEASURE FOR LIFESTYLE DISEASE"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "1",
+            "topic": "MOTHER AT SIXTY-SIX (FLAMINGO)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "13",
+            "topic": "PROBABILITY"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "3",
+            "topic": "Reproductive Health"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "2",
+            "topic": "ELECTROCHEMISTRY"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "7",
+            "topic": "Societal Laws and Ethics"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "4",
+            "topic": "PHYSICAL EDUCATION AND SPORTS FOR CHILDREN WITH SPECIAL NEED"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "NOTICE"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "letter to editor"
+          }
+        ]
+      },
+      {
+        "month": "May' 26",
+        "days": 0,
+        "topics": []
+      },
+      {
+        "month": "June' 26",
+        "days": 18,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "2",
+            "topic": "lost spring (FLAMINGO)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "12",
+            "topic": "Linear Programming"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "4",
+            "topic": "Principles of Inheritance and Variations"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "2",
+            "topic": "Electric Potential and Capacitance"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "6",
+            "topic": "HALOALKANE AND HALOARENES"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "6",
+            "topic": "Introduction to computer networks"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "5",
+            "topic": "SPORTS AND NUTRITION"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "2",
+            "topic": "The tiger king (VISTAS)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "2",
+            "topic": "Inverse Trigonometric Functions"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "5",
+            "topic": "Molecular Basis of Inheritance"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "3",
+            "topic": "Current Electricity"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "6",
+            "topic": "TEST AND MEASUREMENT IN SPORTS"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "2",
+            "topic": "poem 2: Keeing quiet (FLAMINGO)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "1",
+            "topic": "Relations & Functions"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "8",
+            "topic": "Micorbes in Human Welfare"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "ARTICLE"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Invitation"
+          }
+        ]
+      },
+      {
+        "month": "July' 26",
+        "days": 26,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "5",
+            "topic": "Indigo (FLAMINGO)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "5",
+            "topic": "CONTINUITY AND DIFFERENTIABILITY"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "5",
+            "topic": "Molecular Basis of Inheritance"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "4",
+            "topic": "Moving Charges and Magnetism"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "7",
+            "topic": "ALCOHOL PHENOL ADN ETHER"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "1",
+            "topic": "Python Pandas"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "7",
+            "topic": "PHYSIOLOGY AND INJURIES IN SPORTS"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "3",
+            "topic": "Journey to the end of the Earth (VISTAS)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "6",
+            "topic": "APPLICATIONS OF DERIVATIVES"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "5",
+            "topic": "Magnetism and Matter"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "8",
+            "topic": "BIOMECHANICS AND SPORTS"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "reply to invitation"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "6",
+            "topic": "Evolution"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "6",
+            "topic": "Electro-Magnetic Induction"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "REPORT WRITING"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "4",
+            "topic": "Enemy (VISTAS)"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "5",
+            "topic": "A THING OF BEAUTY ( FLAMINGO)"
+          }
+        ]
+      },
+      {
+        "month": "August'26",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "6",
+            "topic": "POETS AND PANCAKES (FLAMINGO)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "7",
+            "topic": "INTEGRALS"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "6",
+            "topic": "Evolution"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "7",
+            "topic": "Alternating Current"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "5",
+            "topic": "CO-ORDINATION COMPOUNDS"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "2",
+            "topic": "Importing/Exporting Data between CSV"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "9",
+            "topic": "PSYCHOLOGY AND SPORTS"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "passage"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "8",
+            "topic": "Electro-Magnetic Wave"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "",
+            "topic": "Files and DataFrames"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "10",
+            "topic": "TRAINING IN SPORTS"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "6",
+            "topic": "On the face of it (VISTAS)"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "9",
+            "topic": "Ray Optics"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "7",
+            "topic": "Human Health and Diseases"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "4",
+            "topic": "D- BLOCK ELEMENTS"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "6",
+            "topic": "A ROADSIDE STAND (FLAMINGO)"
+          }
+        ]
+      },
+      {
+        "month": "September'26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "7",
+            "topic": "Interview (FLAMINGO)"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "3",
+            "topic": "Data Visulization Using PyPlot"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision of writing"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "8",
+            "topic": "APPLICATIONS OF INTEGRALS"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "7",
+            "topic": "Human Health and Diseases"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "9",
+            "topic": "Ray Optics"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "8",
+            "topic": "ALDEHYDE KETONE AND CARBOXYLIC ACID"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "1",
+            "topic": "MANAGEMENT OF SPORTS EVENTS"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "9",
+            "topic": "DIFFERENTIAL EQUATIONS"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "8",
+            "topic": ""
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "10",
+            "topic": "Wave Optics"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "11",
+            "topic": "DUAL MATURE OF RADIATION"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "9",
+            "topic": "AMINES"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "8",
+            "topic": "Going places (FLAMINGO)"
+          }
+        ]
+      },
+      {
+        "month": "October '26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "MATHEMATICS",
+            "ch": "10",
+            "topic": "Vector Algebra"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "9",
+            "topic": "Biotechnology Principles and Processes"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "12",
+            "topic": "Atoms"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "3",
+            "topic": "CHEMICAL KINETICS"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "5",
+            "topic": "AUNT JENNIFER's TIGER(FLAMINGO)"
+          },
+          {
+            "subject": "MATHEMATICS",
+            "ch": "11",
+            "topic": "Three Dimensional Geometry"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "10",
+            "topic": "Biotechnology and Its Applications"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "13",
+            "topic": "NUCLEIC"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "JOB APPLICATION revision"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "11",
+            "topic": "Organisms and Population"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "14",
+            "topic": "Semiconductors"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "6",
+            "topic": "Memories of Childhood (VISTAS)"
+          }
+        ]
+      },
+      {
+        "month": "November' 26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "BIOLOGY",
+            "ch": "12",
+            "topic": "Ecosystem"
+          },
+          {
+            "subject": "PHYSICS",
+            "ch": "14",
+            "topic": "Semiconductors"
+          },
+          {
+            "subject": "BIOLOGY",
+            "ch": "13",
+            "topic": "Biodiversity and conservation"
+          },
+          {
+            "subject": "CHEMISTRY",
+            "ch": "10",
+            "topic": "BIOMOLECULES"
+          }
+        ]
+      },
+      {
+        "month": "December' 26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision"
+          }
+        ]
+      },
+      {
+        "month": "January' 27",
+        "days": 0,
+        "topics": []
+      }
+    ]
+  },
+  "XII-COM": {
+    "grade": "XII-COM",
+    "subjects": [
+      "ENGLISH",
+      "ACCOUNTANCY",
+      "ECONOMICS",
+      "BUSINESS STUDIES",
+      "INFORMATICS & PRACTICES",
+      "PHYSICAL EDUCATION",
+      "APPLIED MATHS"
+    ],
+    "months": [
+      {
+        "month": "April' 26",
+        "days": 20,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "1",
+            "topic": "THE LAST LESSON (FLAMINGO)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "1",
+            "topic": "Fundamental of Partnership"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Indian Economy on Eve of Independence"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "1",
+            "topic": "Nature and significance of management"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "4",
+            "topic": "Revision of Database Concepts"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "2",
+            "topic": "CHILDREN AND WOMEN IN SPORTS"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "3",
+            "topic": "Matrices"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "1",
+            "topic": "THE THIRD LEVEL  (VISTAS)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "2",
+            "topic": "Admission of a Partner (Change in PSR & Goodwill)"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Indian Economy 1950 -1990"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "2",
+            "topic": "Principles of management"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "5",
+            "topic": "SQLFunctions"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "3",
+            "topic": "YOGA AS PREVENTIVE MEASURE FOR LIFESTYLE DISEASE"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "4",
+            "topic": "Determinants"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "1",
+            "topic": "MOTHER AT SIXTY-SIX (FLAMINGO)"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "LPG: An Appraisal"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "11",
+            "topic": "Marketing Management"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "7",
+            "topic": "Societal Laws and Ethics"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "4",
+            "topic": "PHYSICAL EDUCATION AND SPORTS FOR CHILDREN WITH SPECIAL NEED"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "12",
+            "topic": "Perpetuity, Sinking Funds and EMI"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "NOTICE"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "letter to editor"
+          }
+        ]
+      },
+      {
+        "month": "May' 26",
+        "days": 0,
+        "topics": []
+      },
+      {
+        "month": "June' 26",
+        "days": 18,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "2",
+            "topic": "lost spring (FLAMINGO)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "2",
+            "topic": "Admission of a Partner (Admission)"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Circular Flow of Income"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "3",
+            "topic": "Business Environment"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "6",
+            "topic": "Introduction to computer networks"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "5",
+            "topic": "SPORTS AND NUTRITION"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "1",
+            "topic": "Numbers & Numerical Applications"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "2",
+            "topic": "The tiger king (VISTAS)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "3",
+            "topic": "Retirement-Death of a Partner"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Basic Concepts of National Income"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "4",
+            "topic": "Planning"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "6",
+            "topic": "TEST AND MEASUREMENT IN SPORTS"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "2",
+            "topic": "Numerical Inequalities"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "2",
+            "topic": "poem 2: Keeing quiet (FLAMINGO)"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "National Income & Related Aggregates"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "5",
+            "topic": "Organizing"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "3",
+            "topic": "Time-Based Data"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "ARTICLE"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Invitation"
+          }
+        ]
+      },
+      {
+        "month": "July' 26",
+        "days": 26,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "5",
+            "topic": "Indigo (FLAMINGO)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "4",
+            "topic": "Dissolution of Partnership Firm"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Money"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "6",
+            "topic": "Staffing"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "1",
+            "topic": "Python Pandas"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "7",
+            "topic": "PHYSIOLOGY AND INJURIES IN SPORTS"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "14",
+            "topic": "Linear Programming"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "3",
+            "topic": "Journey to the end of the Earth (VISTAS)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "1",
+            "topic": "Issue of Share Capital"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Banking"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "8",
+            "topic": "BIOMECHANICS AND SPORTS"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "9",
+            "topic": "Probability"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "reply to invitation"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Human Capital Formation in India"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "10",
+            "topic": "Inferential Statistics"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "REPORT WRITING"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Rural Development"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "4",
+            "topic": "Enemy (VISTAS)"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "5",
+            "topic": "A THING OF BEAUTY ( FLAMINGO)"
+          }
+        ]
+      },
+      {
+        "month": "August'26",
+        "days": 23,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "6",
+            "topic": "POETS AND PANCAKES (FLAMINGO)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "2",
+            "topic": "Issue of Debentures"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Employment, Growth, Informalization and other Issues"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "7",
+            "topic": "Directing"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "2",
+            "topic": "Importing/Exporting Data between CSV"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "9",
+            "topic": "PSYCHOLOGY AND SPORTS"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "13",
+            "topic": "Returns, Growth, Depreciation"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "passage"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Environment and Sustainable Development"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "8",
+            "topic": "Controlling"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "",
+            "topic": "Files and DataFrames"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "10",
+            "topic": "TRAINING IN SPORTS"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "5",
+            "topic": "Differentiation"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "6",
+            "topic": "On the face of it (VISTAS)"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "6",
+            "topic": "A ROADSIDE STAND (FLAMINGO)"
+          }
+        ]
+      },
+      {
+        "month": "September'26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "7",
+            "topic": "Interview (FLAMINGO)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "3",
+            "topic": "Financial Statement of Company"
+          },
+          {
+            "subject": "INFORMATICS & PRACTICES",
+            "ch": "3",
+            "topic": "Data Visulization Using PyPlot"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision of writing"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "4",
+            "topic": "Analysis of Financial Statement of a Company"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Determination of income and employment"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "9",
+            "topic": "Financial Management"
+          },
+          {
+            "subject": "PHYSICAL EDUCATION",
+            "ch": "1",
+            "topic": "MANAGEMENT OF SPORTS EVENTS"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "5",
+            "topic": "Differentiation(Conti)"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Problems of Excess & Deficient Demand"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "6",
+            "topic": "Applications of Derivatives"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "8",
+            "topic": "Going places (FLAMINGO)"
+          }
+        ]
+      },
+      {
+        "month": "October '26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Government Budget and Economy"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "5",
+            "topic": "Ratio Analysis"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Foreign Exchange Rate"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "7",
+            "topic": "Integrals"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "5",
+            "topic": "AUNT JENNIFER's TIGER(FLAMINGO)"
+          },
+          {
+            "subject": "ACCOUNTANCY",
+            "ch": "6",
+            "topic": "Cash Flow Statement"
+          },
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Balance of Payment"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "10",
+            "topic": "Financial Markets"
+          },
+          {
+            "subject": "APPLIED MATHS",
+            "ch": "8",
+            "topic": "Differential Equations"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "JOB APPLICATION revision"
+          },
+          {
+            "subject": "BUSINESS STUDIES",
+            "ch": "12",
+            "topic": "Consumer Protection"
+          },
+          {
+            "subject": "ENGLISH",
+            "ch": "6",
+            "topic": "Memories of Childhood (VISTAS)"
+          }
+        ]
+      },
+      {
+        "month": "November' 26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ECONOMICS",
+            "ch": "",
+            "topic": "Comparative Development Experiences Of India And Its Neighbours"
+          }
+        ]
+      },
+      {
+        "month": "December' 26",
+        "days": 0,
+        "topics": [
+          {
+            "subject": "ENGLISH",
+            "ch": "",
+            "topic": "Revision"
+          }
+        ]
+      },
+      {
+        "month": "January' 27",
+        "days": 0,
+        "topics": []
+      }
+    ]
+  }
+}

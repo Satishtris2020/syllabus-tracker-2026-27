@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Syllabus Tracker · 2026-27</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+/* ═══════════════════════════ TOKENS ═══════════════════════════ */
+:root{
+  --c0:#0a0d14;--c1:#11151f;--c2:#1a1f2e;--c3:#242b3d;
+  --c4:#2e3650;--c5:#3d4a6b;
+  --t0:#f0f2f8;--t1:#c8cedf;--t2:#8892aa;--t3:#505a78;
+  --acc:#4f8ef7;--acc2:#7eb0ff;--acc-g:rgba(79,142,247,.15);
+  --grn:#2dd4a8;--grn-g:rgba(45,212,168,.15);
+  --amb:#f5a623;--amb-g:rgba(245,166,35,.12);
+  --rose:#f06292;--rose-g:rgba(240,98,146,.12);
+  --pur:#a78bfa;--pur-g:rgba(167,139,250,.12);
+  --r:8px;--r2:14px;--r3:20px;
+  --font:'DM Sans',sans-serif;--head:'Syne',sans-serif;
+  --sh:0 2px 8px rgba(0,0,0,.35);--sh2:0 8px 32px rgba(0,0,0,.45);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);background:var(--c0);color:var(--t0);min-height:100vh;
+  -webkit-font-smoothing:antialiased;}
+
+/* ═══════════════════════════ LOGIN ════════════════════════════ */
+#login-screen{
+  min-height:100vh;display:flex;align-items:center;justify-content:center;
+  background:var(--c0);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% 20%, rgba(79,142,247,.08) 0%,transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 80%, rgba(45,212,168,.06) 0%,transparent 60%);
+  padding:20px;
+}
+.login-box{
+  width:100%;max-width:420px;
+  background:var(--c1);border:1px solid var(--c4);border-radius:var(--r3);
+  padding:44px 40px;box-shadow:var(--sh2);
+  animation:fadeUp .4s ease both;
+}
+.login-logo{margin-bottom:32px}
+.login-logo h1{font-family:var(--head);font-size:26px;font-weight:800;letter-spacing:-.5px;
+  color:var(--t0);line-height:1.1}
+.login-logo h1 span{color:var(--acc)}
+.login-logo p{font-size:13px;color:var(--t2);margin-top:6px}
+.login-tabs{display:flex;gap:8px;margin-bottom:24px}
+.ltab{flex:1;padding:9px;border:1px solid var(--c4);border-radius:var(--r);
+  background:transparent;color:var(--t2);font:600 13px var(--font);cursor:pointer;transition:all .2s}
+.ltab:hover{border-color:var(--c5);color:var(--t1)}
+.ltab.active{background:var(--acc);border-color:var(--acc);color:#fff;box-shadow:0 2px 12px rgba(79,142,247,.35)}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:11.5px;font-weight:600;color:var(--t2);
+  text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.field input,.field select{
+  width:100%;padding:10px 13px;background:var(--c2);
+  border:1px solid var(--c4);border-radius:var(--r);
+  font:500 14px var(--font);color:var(--t0);transition:border-color .2s;
+}
+.field input:focus,.field select:focus{outline:none;border-color:var(--acc)}
+.field select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238892aa' d='M6 8L1 3h10z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center}
+.login-err{color:#f06292;font-size:12.5px;margin-bottom:12px;display:none}
+
+/* ═══════════════════════════ LAYOUT ═══════════════════════════ */
+#app{display:none;flex-direction:column;min-height:100vh}
+
+/* HEADER */
+.hdr{
+  height:58px;background:var(--c1);border-bottom:1px solid var(--c3);
+  display:flex;align-items:center;padding:0 24px;gap:16px;
+  position:sticky;top:0;z-index:100;
+}
+.hdr-logo{font-family:var(--head);font-size:16px;font-weight:800;letter-spacing:-.3px}
+.hdr-logo span{color:var(--acc)}
+.hdr-divider{width:1px;height:20px;background:var(--c4);flex-shrink:0}
+.hdr-tabs{display:flex;gap:2px;flex:1;overflow-x:auto;scrollbar-width:none}
+.hdr-tabs::-webkit-scrollbar{display:none}
+.htab{padding:6px 14px;border-radius:var(--r);font:600 13px var(--font);
+  color:var(--t2);cursor:pointer;transition:all .18s;white-space:nowrap;border:none;background:transparent}
+.htab:hover{color:var(--t1);background:var(--c3)}
+.htab.active{color:var(--t0);background:var(--c3)}
+.hdr-right{margin-left:auto;display:flex;align-items:center;gap:10px;flex-shrink:0}
+.user-pill{display:flex;align-items:center;gap:7px;background:var(--c3);
+  border-radius:100px;padding:5px 12px 5px 8px;font-size:13px;color:var(--t1)}
+.user-dot{width:20px;height:20px;border-radius:50%;display:flex;align-items:center;
+  justify-content:center;font-size:9px;font-weight:700}
+.dot-teacher{background:var(--acc);color:#fff}
+.dot-principal{background:var(--grn);color:#0a0d14}
+.btn-logout{background:transparent;border:1px solid var(--c4);color:var(--t3);
+  padding:5px 11px;border-radius:var(--r);font:500 12px var(--font);cursor:pointer;transition:all .18s}
+.btn-logout:hover{border-color:var(--rose);color:var(--rose)}
+
+/* MAIN */
+.main{flex:1;padding:24px;max-width:1440px;width:100%;margin:0 auto}
+
+/* ═══════════════════════════ DASHBOARD ════════════════════════ */
+#view-dashboard{}
+.dash-header{margin-bottom:24px}
+.dash-header h2{font-family:var(--head);font-size:24px;font-weight:700;letter-spacing:-.3px}
+.dash-header p{color:var(--t2);font-size:13.5px;margin-top:4px}
+
+/* Summary cards row */
+.stat-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin-bottom:24px}
+.stat-card{background:var(--c1);border:1px solid var(--c3);border-radius:var(--r2);padding:18px}
+.stat-card .sval{font-family:var(--head);font-size:30px;font-weight:700}
+.stat-card .slbl{font-size:12px;color:var(--t2);margin-top:4px}
+.stat-card .sbar{height:3px;background:var(--c3);border-radius:2px;margin-top:10px;overflow:hidden}
+.stat-card .sfill{height:100%;border-radius:2px;transition:width .6s ease}
+
+/* Grade progress grid */
+.grade-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.grade-card{
+  background:var(--c1);border:1px solid var(--c3);border-radius:var(--r2);
+  padding:20px;cursor:pointer;transition:all .2s;
+}
+.grade-card:hover{border-color:var(--c5);transform:translateY(-2px);box-shadow:var(--sh)}
+.gc-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.gc-badge{font-family:var(--head);font-size:15px;font-weight:700;
+  background:var(--c3);padding:4px 11px;border-radius:var(--r)}
+.gc-pct{font-family:var(--head);font-size:22px;font-weight:700}
+.gc-bar{height:6px;background:var(--c3);border-radius:3px;margin-bottom:12px;overflow:hidden}
+.gc-fill{height:100%;border-radius:3px;transition:width .8s ease}
+.gc-subjects{display:flex;flex-direction:column;gap:5px}
+.gc-subj{display:flex;align-items:center;justify-content:space-between;font-size:12px}
+.gc-subj-name{color:var(--t1)}
+.gc-subj-mini{display:flex;align-items:center;gap:6px}
+.gc-subj-bar{height:3px;width:80px;background:var(--c3);border-radius:2px;overflow:hidden}
+.gc-subj-fill{height:100%;border-radius:2px}
+.gc-subj-pct{color:var(--t2);font-size:11px;width:32px;text-align:right}
+
+/* ═══════════════════════════ GRADE VIEW ═══════════════════════ */
+#view-grade{}
+.gv-header{display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap}
+.gv-back{background:var(--c3);border:none;color:var(--t1);
+  padding:7px 14px;border-radius:var(--r);font:600 13px var(--font);cursor:pointer;
+  display:flex;align-items:center;gap:5px;transition:all .18s}
+.gv-back:hover{background:var(--c4);color:var(--t0)}
+.gv-title{font-family:var(--head);font-size:22px;font-weight:700}
+.gv-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.filter-chip{
+  padding:6px 13px;border-radius:100px;border:1px solid var(--c4);
+  background:transparent;color:var(--t2);font:500 12.5px var(--font);
+  cursor:pointer;transition:all .18s;white-space:nowrap;
+}
+.filter-chip:hover{border-color:var(--c5);color:var(--t1)}
+.filter-chip.active{background:var(--acc);border-color:var(--acc);color:#fff}
+.filter-chip.grn.active{background:var(--grn);border-color:var(--grn);color:#0a0d14}
+
+/* Month accordion */
+.month-block{margin-bottom:12px;border:1px solid var(--c3);border-radius:var(--r2);overflow:hidden}
+.month-hdr{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:13px 18px;background:var(--c2);cursor:pointer;
+  transition:background .18s;user-select:none;
+}
+.month-hdr:hover{background:var(--c3)}
+.month-hdr.open{background:var(--c2);border-bottom:1px solid var(--c3)}
+.mh-left{display:flex;align-items:center;gap:12px}
+.mh-name{font-family:var(--head);font-weight:600;font-size:14.5px}
+.mh-days{font-size:12px;color:var(--t3);background:var(--c3);
+  padding:2px 8px;border-radius:4px}
+.mh-right{display:flex;align-items:center;gap:10px}
+.mh-pct{font-size:12.5px;color:var(--t2)}
+.mh-bar{width:80px;height:4px;background:var(--c3);border-radius:2px;overflow:hidden}
+.mh-fill{height:100%;border-radius:2px;transition:width .4s ease}
+.mh-arrow{font-size:11px;color:var(--t3);transition:transform .2s}
+.month-hdr.open .mh-arrow{transform:rotate(180deg)}
+.month-body{display:none;padding:12px}
+.month-body.open{display:block}
+
+/* Subject group within month */
+.subj-group{margin-bottom:14px}
+.sg-title{
+  font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;
+  color:var(--t3);padding:0 6px;margin-bottom:6px;display:flex;align-items:center;gap:6px;
+}
+.sg-title::after{content:'';flex:1;height:1px;background:var(--c3)}
+
+/* Topic rows */
+.topic-row{
+  display:flex;align-items:flex-start;gap:10px;padding:8px 8px 8px 6px;
+  border-radius:var(--r);transition:background .15s;margin-bottom:3px;
+}
+.topic-row:hover{background:var(--c2)}
+.topic-row.done .topic-text{text-decoration:line-through;color:var(--t3)}
+.topic-check{
+  width:18px;height:18px;border-radius:4px;border:1.5px solid var(--c4);
+  flex-shrink:0;cursor:pointer;margin-top:1px;transition:all .18s;
+  display:flex;align-items:center;justify-content:center;
+}
+.topic-check:hover{border-color:var(--grn)}
+.topic-check.checked{background:var(--grn);border-color:var(--grn)}
+.topic-check.checked::after{content:'✓';font-size:10px;color:#0a0d14;font-weight:700}
+.topic-main{flex:1;min-width:0}
+.topic-text{font-size:13.5px;color:var(--t1);line-height:1.4}
+.topic-ch{font-size:11.5px;color:var(--t3);margin-top:2px}
+.topic-meta{display:flex;align-items:center;gap:6px;margin-top:5px;flex-wrap:wrap}
+.exam-tag{
+  font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;
+  cursor:pointer;border:1px solid transparent;transition:all .15s;
+}
+.week-badge{font-size:10.5px;color:var(--grn);background:var(--grn-g);
+  padding:2px 8px;border-radius:4px;border:1px solid rgba(45,212,168,.2)}
+.note-icon{font-size:12px;color:var(--amb);cursor:pointer;background:none;border:none;padding:2px 6px;
+  border-radius:4px;transition:background .15s}
+.note-icon:hover{background:var(--amb-g)}
+
+/* Week date picker (inline) */
+.week-picker{margin-top:6px;display:none}
+.week-picker.show{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.week-picker input[type=date]{
+  padding:4px 8px;background:var(--c2);border:1px solid var(--c4);
+  border-radius:var(--r);font:13px var(--font);color:var(--t0);
+}
+.week-picker input[type=date]:focus{outline:none;border-color:var(--acc)}
+.wp-save{padding:4px 10px;background:var(--acc);color:#fff;border:none;
+  border-radius:var(--r);font:600 12px var(--font);cursor:pointer;transition:background .18s}
+.wp-save:hover{background:#3a7de8}
+
+/* Exam tag legend */
+.exam-legend{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:16px}
+
+/* Note modal */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);
+  display:flex;align-items:center;justify-content:center;z-index:500;padding:20px}
+.modal{background:var(--c1);border:1px solid var(--c4);border-radius:var(--r2);
+  width:100%;max-width:440px;padding:28px;box-shadow:var(--sh2)}
+.modal h3{font-family:var(--head);font-size:16px;margin-bottom:14px}
+.modal textarea{
+  width:100%;min-height:100px;padding:10px 12px;
+  background:var(--c2);border:1px solid var(--c4);border-radius:var(--r);
+  font:14px var(--font);color:var(--t0);resize:vertical;
+}
+.modal textarea:focus{outline:none;border-color:var(--acc)}
+.modal-btns{display:flex;gap:8px;margin-top:14px;justify-content:flex-end}
+
+/* Bulk save bar */
+.save-bar{
+  position:sticky;bottom:0;background:var(--c1);border-top:1px solid var(--c3);
+  padding:12px 24px;display:none;align-items:center;justify-content:space-between;gap:12px;
+  z-index:50;
+}
+.save-bar.show{display:flex}
+.sb-count{font-size:13px;color:var(--t1)}
+.sb-count strong{color:var(--amb)}
+
+/* ═══════════════════════════ PRINCIPAL DASH ════════════════════ */
+#view-principal{}.pd-header{margin-bottom:24px}
+.pd-header h2{font-family:var(--head);font-size:24px;font-weight:700;letter-spacing:-.3px}
+.pd-filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+
+/* Full progress table */
+.prog-table{width:100%;border-collapse:collapse;font-size:13px}
+.prog-table th{
+  padding:9px 14px;background:var(--c2);border:1px solid var(--c3);
+  font:600 11.5px var(--head);text-transform:uppercase;letter-spacing:.4px;color:var(--t2);
+  text-align:left;position:sticky;top:58px;z-index:10;
+}
+.prog-table td{padding:8px 14px;border:1px solid var(--c3);color:var(--t1);vertical-align:middle}
+.prog-table tr:hover td{background:var(--c2)}
+.ptd-grade{font-family:var(--head);font-weight:700;font-size:13px}
+.ptd-month{color:var(--t2);font-size:12.5px}
+.ptd-subject{font-size:12.5px}
+.ptd-bar{display:flex;align-items:center;gap:8px}
+.ptd-bar-inner{flex:1;height:5px;background:var(--c3);border-radius:3px;overflow:hidden}
+.ptd-bar-fill{height:100%;border-radius:3px}
+.ptd-pct{font-size:11.5px;font-weight:600;width:35px;text-align:right}
+.exam-chips{display:flex;flex-wrap:wrap;gap:3px}
+
+/* Exam summary view */
+.exam-section{margin-bottom:32px}
+.exam-section h3{font-family:var(--head);font-size:17px;font-weight:700;
+  margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.exam-badge-lg{font-size:12px;font-weight:700;padding:3px 10px;border-radius:5px}
+.exam-topic-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:8px}
+.etl-item{background:var(--c1);border:1px solid var(--c3);border-radius:var(--r);padding:11px 14px}
+.etl-item .etl-grade{font-size:10.5px;color:var(--t3);font-weight:600;text-transform:uppercase;margin-bottom:3px}
+.etl-item .etl-topic{font-size:13px;color:var(--t1);line-height:1.3}
+.etl-item .etl-ch{font-size:11.5px;color:var(--t3);margin-top:2px}
+
+/* ═══════════════════════════ UTILITIES ════════════════════════ */
+.btn{display:inline-flex;align-items:center;gap:6px;padding:9px 18px;
+  border-radius:var(--r);border:none;cursor:pointer;font:600 13.5px var(--font);
+  transition:all .18s;white-space:nowrap}
+.btn-primary{background:var(--acc);color:#fff;box-shadow:0 2px 12px rgba(79,142,247,.3)}
+.btn-primary:hover{background:#3a7de8;transform:translateY(-1px)}
+.btn-primary:active{transform:translateY(0)}
+.btn-success{background:var(--grn);color:#0a0d14;box-shadow:0 2px 12px rgba(45,212,168,.25)}
+.btn-success:hover{background:#24c49a}
+.btn-ghost{background:var(--c3);color:var(--t1);border:1px solid var(--c4)}
+.btn-ghost:hover{background:var(--c4);color:var(--t0)}
+.btn-danger{background:transparent;color:var(--rose);border:1px solid rgba(240,98,146,.3)}
+.btn-danger:hover{background:var(--rose-g)}
+.btn-sm{padding:6px 13px;font-size:12.5px}
+.btn:disabled{opacity:.4;cursor:not-allowed;transform:none!important}
+.hidden{display:none!important}
+.pill{font-size:11px;font-weight:700;padding:2px 8px;border-radius:100px}
+
+/* Spinner */
+.spinner{
+  width:20px;height:20px;border:2px solid var(--c4);border-top-color:var(--acc);
+  border-radius:50%;animation:spin .6s linear infinite;display:inline-block;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+/* Exam color scheme */
+.ec-PT1{background:#1e3a5f;color:#7eb0ff;border-color:#2a4d7f}
+.ec-PT2{background:#1f3d2d;color:#2dd4a8;border-color:#1f5038}
+.ec-PT3{background:#3d2d1f;color:#f5a623;border-color:#6b4a1a}
+.ec-PT4{background:#2d1f3d;color:#a78bfa;border-color:#4a2d7a}
+.ec-PB1{background:#3d1f1f;color:#f06292;border-color:#6b1a2a}
+.ec-PB2{background:#1f3d3d;color:#67e8f9;border-color:#1a5a6b}
+.ec-PB3{background:#2d3d1f;color:#a3e635;border-color:#4a6b1a}
+
+/* scrollbar */
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:var(--c1)}
+::-webkit-scrollbar-thumb{background:var(--c4);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:var(--c5)}
+
+/* responsive */
+@media(max-width:640px){
+  .main{padding:14px}
+  .hdr{padding:0 14px}
+  .grade-grid{grid-template-columns:1fr}
+  .stat-row{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+
+<!-- ══════════════ LOGIN ══════════════ -->
+<div id="login-screen">
+  <div class="login-box">
+    <div class="login-logo">
+      <h1>Syllabus<br><span>Tracker</span></h1>
+      <p>2026-27 Academic Year · School Progress Dashboard</p>
+    </div>
+    <div class="login-tabs">
+      <button class="ltab active" onclick="setRole('teacher')">🧑‍🏫 Teacher</button>
+      <button class="ltab" onclick="setRole('principal')">🏫 Principal</button>
+    </div>
+    <div id="teacher-fields">
+      <div class="field">
+        <label>Your Name</label>
+        <input type="text" id="f-name" placeholder="Enter your name">
+      </div>
+    </div>
+    <div class="field">
+      <label>Password</label>
+      <input type="password" id="f-pass" placeholder="Enter password" onkeydown="if(event.key==='Enter')doLogin()">
+    </div>
+    <div id="login-err" class="login-err">Incorrect password. Try again.</div>
+    <button class="btn btn-primary" style="width:100%;justify-content:center" onclick="doLogin()">
+      Sign In →
+    </button>
+    <p style="margin-top:14px;font-size:12px;color:var(--t3);text-align:center">
+      Teacher password: <code style="color:var(--t2)">teacher123</code> &nbsp;·&nbsp;
+      Principal: <code style="color:var(--t2)">principal123</code>
+    </p>
+  </div>
+</div>
+
+<!-- ══════════════ APP ══════════════ -->
+<div id="app">
+  <!-- HEADER -->
+  <header class="hdr">
+    <div class="hdr-logo">Syllabus <span>Tracker</span></div>
+    <div class="hdr-divider"></div>
+    <nav class="hdr-tabs" id="hdr-tabs"></nav>
+    <div class="hdr-right">
+      <div class="user-pill">
+        <div class="user-dot" id="user-dot">T</div>
+        <span id="user-name"></span>
+      </div>
+      <button class="btn-logout" onclick="logout()">Sign out</button>
+    </div>
+  </header>
+
+  <!-- VIEWS -->
+  <div class="main">
+
+    <!-- TEACHER: Grade view selector (dashboard) -->
+    <div id="view-dashboard" class="hidden">
+      <div class="dash-header">
+        <h2>Class Overview</h2>
+        <p id="dash-sub">Select a class to update syllabus progress</p>
+      </div>
+      <div class="stat-row" id="stat-row"></div>
+      <div class="grade-grid" id="grade-grid"></div>
+    </div>
+
+    <!-- TEACHER: Single grade detail -->
+    <div id="view-grade" class="hidden">
+      <div class="gv-header">
+        <button class="gv-back" onclick="showDashboard()">← Overview</button>
+        <div class="gv-title" id="gv-title"></div>
+      </div>
+      <div class="gv-filters" id="gv-filters">
+        <span style="font-size:12px;color:var(--t3);align-self:center;margin-right:4px">Filter:</span>
+        <button class="filter-chip active" data-filter="all" onclick="setFilter(this,'all')">All Topics</button>
+        <button class="filter-chip grn" data-filter="done" onclick="setFilter(this,'done')">✓ Completed</button>
+        <button class="filter-chip" data-filter="pending" onclick="setFilter(this,'pending')">⏳ Pending</button>
+      </div>
+      <div class="exam-legend" id="exam-legend"></div>
+      <div id="grade-content"></div>
+    </div>
+
+    <!-- PRINCIPAL: Full dashboard -->
+    <div id="view-principal" class="hidden">
+      <div class="pd-header">
+        <h2>Principal Dashboard</h2>
+        <p style="color:var(--t2);font-size:13.5px;margin-top:4px">Full school syllabus progress · 2026-27</p>
+      </div>
+      <div class="pd-filters">
+        <button class="filter-chip active" data-pview="overview" onclick="setPView(this,'overview')">📊 Overview</button>
+        <button class="filter-chip" data-pview="progress" onclick="setPView(this,'progress')">📋 Subject Progress</button>
+        <button class="filter-chip" data-pview="exams" onclick="setPView(this,'exams')">📝 Exam Topics</button>
+      </div>
+      <div id="principal-content"></div>
+    </div>
+
+  </div>
+
+  <!-- SAVE BAR -->
+  <div class="save-bar" id="save-bar">
+    <div class="sb-count"><strong id="pending-count">0</strong> unsaved changes</div>
+    <div style="display:flex;gap:8px">
+      <button class="btn btn-ghost btn-sm" onclick="discardChanges()">Discard</button>
+      <button class="btn btn-success" onclick="saveChanges()">💾 Save Progress</button>
+    </div>
+  </div>
+</div>
+
+<!-- NOTE MODAL -->
+<div class="modal-overlay hidden" id="note-modal" onclick="closeNoteModal(event)">
+  <div class="modal" onclick="event.stopPropagation()">
+    <h3>📝 Topic Note</h3>
+    <p style="font-size:13px;color:var(--t2);margin-bottom:12px" id="note-topic-title"></p>
+    <textarea id="note-text" placeholder="Add a note about this topic…"></textarea>
+    <div class="modal-btns">
+      <button class="btn btn-ghost btn-sm" onclick="closeNoteModal()">Cancel</button>
+      <button class="btn btn-primary btn-sm" onclick="saveNote()">Save Note</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div id="toast" style="position:fixed;bottom:80px;left:50%;transform:translateX(-50%) translateY(20px);
+  background:#1a1f2e;border:1px solid #2e3650;color:#f0f2f8;padding:10px 20px;border-radius:8px;
+  font-size:13.5px;font-weight:500;opacity:0;transition:all .3s;z-index:999;white-space:nowrap"></div>
+
+<script>
+// ══════════════════════════════════════════════════════════════
+//  STATE
+// ══════════════════════════════════════════════════════════════
+const S = {
+  role: null, teacher: null,
+  syllabus: null,      // {VII: {...}, ...}
+  progress: {},        // {topic_id: {completed, week_date, teacher}}
+  exams: {},           // {topic_id: [exams]}
+  notes: {},           // {topic_id: note}
+  pending: {},         // unsaved changes
+  currentGrade: null,
+  subjectFilter: null,
+  topicFilter: 'all',
+  pView: 'overview',
+};
+
+const EXAMS = ['PT1','PT2','PT3','PT4','PB1','PB2','PB3'];
+const EXAM_COLORS = {
+  PT1:'#4f8ef7',PT2:'#2dd4a8',PT3:'#f5a623',PT4:'#a78bfa',
+  PB1:'#f06292',PB2:'#67e8f9',PB3:'#a3e635'
+};
+
+// ══════════════════════════════════════════════════════════════
+//  LOGIN
+// ══════════════════════════════════════════════════════════════
+let loginRole = 'teacher';
+function setRole(r){
+  loginRole = r;
+  document.querySelectorAll('.ltab').forEach((t,i)=>t.classList.toggle('active',['teacher','principal'][i]===r));
+  document.getElementById('teacher-fields').style.display = r==='teacher' ? '' : 'none';
+}
+setRole('teacher');
+
+async function doLogin(){
+  const pass = document.getElementById('f-pass').value;
+  const name = document.getElementById('f-name')?.value?.trim() || 'Teacher';
+  const err  = document.getElementById('login-err');
+  err.style.display = 'none';
+  try{
+    const r = await api('/api/login','POST',{role:loginRole, password:pass, name});
+    if(r.ok){
+      S.role = r.role; S.teacher = r.role==='teacher' ? name : 'Principal';
+      await startApp();
+    } else { err.style.display='block'; }
+  }catch(e){ err.style.display='block'; }
+}
+
+async function logout(){
+  await api('/api/logout','POST');
+  location.reload();
+}
+
+// ══════════════════════════════════════════════════════════════
+//  APP INIT
+// ══════════════════════════════════════════════════════════════
+async function startApp(){
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('app').style.display = 'flex';
+
+  // User pill
+  const dot = document.getElementById('user-dot');
+  dot.textContent = S.role==='principal' ? 'P' : S.teacher[0]?.toUpperCase();
+  dot.className = 'user-dot ' + (S.role==='principal' ? 'dot-principal' : 'dot-teacher');
+  document.getElementById('user-name').textContent = S.teacher;
+
+  // Build grade tabs
+  const tabs = document.getElementById('hdr-tabs');
+  if(S.role === 'teacher'){
+    tabs.innerHTML = `
+      <button class="htab active" onclick="showDashboard()">📊 Overview</button>
+      ${Object.keys({VII:1,VIII:1,IX:1,X:1,'XI-SCI':1,'XI-COM':1,'XII-SCI':1,'XII-COM':1}).map(g=>
+        `<button class="htab" onclick="openGrade('${g}')">${g}</button>`
+      ).join('')}`;
+  } else {
+    tabs.innerHTML = `
+      <button class="htab active" onclick="showPrincipal()">📊 Dashboard</button>`;
+  }
+
+  // Load data
+  const [syllabus, prog] = await Promise.all([
+    fetch('/static/syllabus_data.json').then(r=>r.json()),
+    api('/api/progress')
+  ]);
+  S.syllabus  = syllabus;
+  S.progress  = prog.progress  || {};
+  S.exams     = prog.exams     || {};
+  S.notes     = prog.notes     || {};
+
+  if(S.role === 'teacher') showDashboard();
+  else showPrincipal();
+}
+
+// ══════════════════════════════════════════════════════════════
+//  DASHBOARD
+// ══════════════════════════════════════════════════════════════
+function showDashboard(){
+  showView('view-dashboard');
+  updateHdrTab(0);
+
+  // Compute totals
+  let totalAll=0,doneAll=0;
+  const gradeStats = {};
+  for(const [grade,gd] of Object.entries(S.syllabus)){
+    let total=0,done=0;
+    const subjStats = {};
+    for(const m of gd.months){
+      for(const t of m.topics){
+        const id = topicId(grade,gd.months.indexOf(m),m.topics.indexOf(t));
+        const isDone = S.progress[id]?.completed;
+        total++; if(isDone) done++;
+        if(!subjStats[t.subject]) subjStats[t.subject]={total:0,done:0};
+        subjStats[t.subject].total++;
+        if(isDone) subjStats[t.subject].done++;
+      }
+    }
+    gradeStats[grade]={total,done,subjects:subjStats};
+    totalAll+=total; doneAll+=done;
+  }
+
+  // Stat cards
+  const pct = totalAll ? Math.round(doneAll/totalAll*100) : 0;
+  const sr = document.getElementById('stat-row');
+  sr.innerHTML = `
+    <div class="stat-card">
+      <div class="sval" style="color:var(--acc)">${pct}%</div>
+      <div class="slbl">Overall Completion</div>
+      <div class="sbar"><div class="sfill" style="width:${pct}%;background:var(--acc)"></div></div>
+    </div>
+    <div class="stat-card">
+      <div class="sval">${doneAll}</div>
+      <div class="slbl">Topics Completed</div>
+      <div class="sbar"><div class="sfill" style="width:${pct}%;background:var(--grn)"></div></div>
+    </div>
+    <div class="stat-card">
+      <div class="sval">${totalAll-doneAll}</div>
+      <div class="slbl">Topics Pending</div>
+    </div>
+    <div class="stat-card">
+      <div class="sval">${totalAll}</div>
+      <div class="slbl">Total Topics</div>
+    </div>`;
+
+  // Grade cards
+  const gg = document.getElementById('grade-grid');
+  gg.innerHTML = Object.entries(gradeStats).map(([grade,gs])=>{
+    const p = gs.total ? Math.round(gs.done/gs.total*100) : 0;
+    const color = p>=80?'var(--grn)':p>=50?'var(--acc)':'var(--amb)';
+    const subjRows = Object.entries(gs.subjects).slice(0,5).map(([s,ss])=>{
+      const sp = ss.total ? Math.round(ss.done/ss.total*100) : 0;
+      return `<div class="gc-subj">
+        <span class="gc-subj-name">${s}</span>
+        <div class="gc-subj-mini">
+          <div class="gc-subj-bar"><div class="gc-subj-fill" style="width:${sp}%;background:${color}"></div></div>
+          <span class="gc-subj-pct">${sp}%</span>
+        </div>
+      </div>`;
+    }).join('');
+    return `<div class="grade-card" onclick="openGrade('${grade}')">
+      <div class="gc-top">
+        <span class="gc-badge">${grade}</span>
+        <span class="gc-pct" style="color:${color}">${p}%</span>
+      </div>
+      <div class="gc-bar"><div class="gc-fill" style="width:${p}%;background:${color}"></div></div>
+      <div class="gc-subjects">${subjRows}</div>
+    </div>`;
+  }).join('');
+}
+
+// ══════════════════════════════════════════════════════════════
+//  GRADE VIEW
+// ══════════════════════════════════════════════════════════════
+function openGrade(grade){
+  S.currentGrade = grade;
+  S.subjectFilter = null;
+  S.topicFilter = 'all';
+  showView('view-grade');
+  document.getElementById('gv-title').textContent = `Class ${grade}`;
+
+  // Update header tab
+  const tabs = document.querySelectorAll('.htab');
+  tabs.forEach(t => t.classList.remove('active'));
+  const gradeIdx = Object.keys(S.syllabus).indexOf(grade);
+  if(tabs[gradeIdx+1]) tabs[gradeIdx+1].classList.add('active');
+
+  // Subject filters
+  const gd = S.syllabus[grade];
+  const subjects = gd.subjects || [...new Set(gd.months.flatMap(m=>m.topics.map(t=>t.subject)))];
+  const gvf = document.getElementById('gv-filters');
+  gvf.innerHTML = `
+    <span style="font-size:12px;color:var(--t3);align-self:center;margin-right:4px">Subject:</span>
+    <button class="filter-chip active" data-filter="all" onclick="setSubjFilter(this,null)">All</button>
+    ${subjects.map(s=>`<button class="filter-chip" onclick="setSubjFilter(this,'${s}')">${s}</button>`).join('')}
+    <span style="font-size:12px;color:var(--t3);align-self:center;margin-left:8px;margin-right:4px">Show:</span>
+    <button class="filter-chip active" data-tfilter="all" onclick="setTopicFilter(this,'all')">All</button>
+    <button class="filter-chip grn" data-tfilter="done" onclick="setTopicFilter(this,'done')">✓ Done</button>
+    <button class="filter-chip" data-tfilter="pending" onclick="setTopicFilter(this,'pending')">⏳ Pending</button>`;
+
+  // Exam legend
+  const el = document.getElementById('exam-legend');
+  el.innerHTML = `<span style="font-size:11.5px;color:var(--t3);align-self:center;margin-right:4px">Mark for exam:</span>` +
+    EXAMS.map(e=>`<span class="exam-tag ec-${e}" style="cursor:default">${e}</span>`).join('');
+
+  renderGradeContent();
+}
+
+function setSubjFilter(btn, subj){
+  S.subjectFilter = subj;
+  btn.closest('.gv-filters').querySelectorAll('.filter-chip:not([data-tfilter])').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderGradeContent();
+}
+
+function setTopicFilter(btn, f){
+  S.topicFilter = f;
+  btn.closest('.gv-filters').querySelectorAll('[data-tfilter]').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderGradeContent();
+}
+
+function renderGradeContent(){
+  const grade = S.currentGrade;
+  const gd = S.syllabus[grade];
+  const container = document.getElementById('grade-content');
+
+  let html = '';
+  gd.months.forEach((month, mi)=>{
+    // Group topics by subject
+    const bySubject = {};
+    month.topics.forEach((t,ti)=>{
+      if(S.subjectFilter && t.subject !== S.subjectFilter) return;
+      const id = topicId(grade, mi, ti);
+      const isDone = !!(S.pending[id]?.completed ?? S.progress[id]?.completed);
+      if(S.topicFilter==='done' && !isDone) return;
+      if(S.topicFilter==='pending' && isDone) return;
+      if(!bySubject[t.subject]) bySubject[t.subject]=[];
+      bySubject[t.subject].push({...t, id, isDone});
+    });
+    if(!Object.keys(bySubject).length) return;
+
+    // Month stats
+    let mTotal=0, mDone=0;
+    month.topics.forEach((t,ti)=>{
+      const id = topicId(grade,mi,ti);
+      mTotal++;
+      if(S.pending[id]?.completed ?? S.progress[id]?.completed) mDone++;
+    });
+    const mPct = mTotal ? Math.round(mDone/mTotal*100) : 0;
+    const mColor = mPct>=80?'var(--grn)':mPct>=50?'var(--acc)':'var(--amb)';
+
+    html += `<div class="month-block" id="mb-${grade}-${mi}">
+      <div class="month-hdr open" onclick="toggleMonth(this)">
+        <div class="mh-left">
+          <span class="mh-name">${month.month}</span>
+          ${month.days>0?`<span class="mh-days">${month.days} days</span>`:''}
+        </div>
+        <div class="mh-right">
+          <span class="mh-pct">${mDone}/${mTotal}</span>
+          <div class="mh-bar"><div class="mh-fill" style="width:${mPct}%;background:${mColor}"></div></div>
+          <span class="mh-arrow">▼</span>
+        </div>
+      </div>
+      <div class="month-body open">`;
+
+    for(const [subj, topics] of Object.entries(bySubject)){
+      html += `<div class="subj-group">
+        <div class="sg-title">${subj}</div>`;
+      topics.forEach(t=>{
+        const exList = S.pending[t.id]?.exams ?? S.exams[t.id] ?? [];
+        const weekDate = S.pending[t.id]?.week_date ?? S.progress[t.id]?.week_date ?? '';
+        const note = S.pending[t.id]?.note ?? S.notes[t.id] ?? '';
+        const examTags = EXAMS.map(e=>{
+          const on = exList.includes(e);
+          return `<span class="exam-tag ec-${e}" onclick="toggleExam('${t.id}','${e}')" 
+            style="opacity:${on?1:.3};cursor:pointer">${e}</span>`;
+        }).join('');
+        html += `<div class="topic-row ${t.isDone?'done':''}" id="tr-${t.id}">
+          <div class="topic-check ${t.isDone?'checked':''}" onclick="toggleDone('${t.id}')"></div>
+          <div class="topic-main">
+            <div class="topic-text">${t.topic||'—'}</div>
+            ${t.ch?`<div class="topic-ch">${t.ch}</div>`:''}
+            <div class="topic-meta">
+              ${examTags}
+              ${weekDate?`<span class="week-badge">📅 ${weekDate}</span>`:''}
+              <button class="note-icon" onclick="openNoteModal('${t.id}','${escJ(t.topic)}')" title="Add note">${note?'📝':'💬'}</button>
+            </div>
+            <div class="week-picker ${t.isDone?'show':''}" id="wp-${t.id}">
+              <span style="font-size:11.5px;color:var(--t3)">Week completed:</span>
+              <input type="date" id="wd-${t.id}" value="${weekDate}" onchange="setWeekDate('${t.id}',this.value)">
+            </div>
+          </div>
+        </div>`;
+      });
+      html += `</div>`;
+    }
+    html += `</div></div>`;
+  });
+
+  container.innerHTML = html || `<p style="color:var(--t3);text-align:center;padding:40px">No topics match the current filter.</p>`;
+}
+
+// ══════════════════════════════════════════════════════════════
+//  TOPIC INTERACTIONS
+// ══════════════════════════════════════════════════════════════
+function toggleDone(id){
+  const cur = !!(S.pending[id]?.completed ?? S.progress[id]?.completed);
+  const newVal = !cur;
+  if(!S.pending[id]) S.pending[id] = {...(S.progress[id]||{}), exams:[...(S.exams[id]||[])], note:S.notes[id]||''};
+  S.pending[id].completed = newVal;
+  if(!newVal) S.pending[id].week_date = '';
+  showSaveBar();
+
+  // Update DOM
+  const row = document.getElementById(`tr-${id}`);
+  if(!row) return;
+  row.classList.toggle('done', newVal);
+  const chk = row.querySelector('.topic-check');
+  chk.classList.toggle('checked', newVal);
+  const wp = document.getElementById(`wp-${id}`);
+  if(wp) wp.classList.toggle('show', newVal);
+}
+
+function toggleExam(id, exam){
+  if(!S.pending[id]) S.pending[id] = {...(S.progress[id]||{}), exams:[...(S.exams[id]||[])], note:S.notes[id]||''};
+  const exams = S.pending[id].exams || [];
+  const idx = exams.indexOf(exam);
+  if(idx>=0) exams.splice(idx,1); else exams.push(exam);
+  S.pending[id].exams = exams;
+  showSaveBar();
+
+  // Update exam tag opacity
+  const row = document.getElementById(`tr-${id}`);
+  if(!row) return;
+  row.querySelectorAll('.exam-tag').forEach(tag=>{
+    const e = tag.textContent.trim();
+    tag.style.opacity = exams.includes(e) ? 1 : 0.3;
+  });
+}
+
+function setWeekDate(id, val){
+  if(!S.pending[id]) S.pending[id] = {...(S.progress[id]||{}), exams:[...(S.exams[id]||[])], note:S.notes[id]||''};
+  S.pending[id].week_date = val;
+  showSaveBar();
+}
+
+function toggleMonth(hdr){
+  hdr.classList.toggle('open');
+  const body = hdr.nextElementSibling;
+  body.classList.toggle('open');
+}
+
+// ══════════════════════════════════════════════════════════════
+//  NOTE MODAL
+// ══════════════════════════════════════════════════════════════
+let noteTopicId = null;
+function openNoteModal(id, topicTitle){
+  noteTopicId = id;
+  document.getElementById('note-topic-title').textContent = decodeURIComponent(topicTitle);
+  document.getElementById('note-text').value = S.pending[id]?.note ?? S.notes[id] ?? '';
+  document.getElementById('note-modal').classList.remove('hidden');
+}
+function closeNoteModal(e){
+  if(!e || e.target.id==='note-modal') document.getElementById('note-modal').classList.add('hidden');
+}
+function saveNote(){
+  const note = document.getElementById('note-text').value;
+  const id = noteTopicId;
+  if(!S.pending[id]) S.pending[id]={...(S.progress[id]||{}),exams:[...(S.exams[id]||[])],note:''};
+  S.pending[id].note = note;
+  showSaveBar();
+  // Update note icon
+  const row = document.getElementById(`tr-${id}`);
+  if(row){ const btn=row.querySelector('.note-icon'); if(btn) btn.textContent = note?'📝':'💬'; }
+  closeNoteModal();
+  toast('Note saved');
+}
+
+// ══════════════════════════════════════════════════════════════
+//  SAVE / DISCARD
+// ══════════════════════════════════════════════════════════════
+function showSaveBar(){
+  const n = Object.keys(S.pending).length;
+  document.getElementById('pending-count').textContent = n;
+  document.getElementById('save-bar').classList.toggle('show', n>0);
+}
+
+async function saveChanges(){
+  const updates = Object.entries(S.pending).map(([topic_id, d])=>({
+    topic_id,
+    completed: d.completed||false,
+    week_date: d.week_date||'',
+    exams:     d.exams||[],
+    note:      d.note||'',
+  }));
+  try{
+    await api('/api/save','POST',{updates});
+    // Merge pending into state
+    for(const [id,d] of Object.entries(S.pending)){
+      S.progress[id] = {completed:d.completed||false, week_date:d.week_date||'', teacher:S.teacher};
+      if(d.exams) S.exams[id] = d.exams;
+      if('note' in d) S.notes[id] = d.note;
+    }
+    S.pending = {};
+    showSaveBar();
+    toast(`✅ Progress saved!`);
+    if(S.currentGrade) renderGradeContent();
+    if(document.getElementById('view-dashboard').classList.contains('hidden')===false) showDashboard();
+  }catch(e){ toast('❌ Save failed. Try again.'); }
+}
+
+function discardChanges(){
+  S.pending = {};
+  showSaveBar();
+  if(S.currentGrade) renderGradeContent();
+  toast('Changes discarded');
+}
+
+// ══════════════════════════════════════════════════════════════
+//  PRINCIPAL DASHBOARD
+// ══════════════════════════════════════════════════════════════
+function showPrincipal(){
+  showView('view-principal');
+  renderPrincipal();
+}
+
+function setPView(btn, view){
+  S.pView = view;
+  document.querySelectorAll('[data-pview]').forEach(b=>b.classList.toggle('active',b===btn));
+  renderPrincipal();
+}
+
+function renderPrincipal(){
+  const c = document.getElementById('principal-content');
+  if(S.pView === 'overview') renderPrincipalOverview(c);
+  else if(S.pView === 'progress') renderPrincipalProgress(c);
+  else renderPrincipalExams(c);
+}
+
+function renderPrincipalOverview(c){
+  let totalAll=0,doneAll=0;
+  const rows = [];
+
+  for(const [grade,gd] of Object.entries(S.syllabus)){
+    const subjStats = {};
+    let gTotal=0,gDone=0;
+    gd.months.forEach((m,mi)=>m.topics.forEach((t,ti)=>{
+      const id = topicId(grade,mi,ti);
+      const done = !!S.progress[id]?.completed;
+      gTotal++; if(done)gDone++;
+      if(!subjStats[t.subject])subjStats[t.subject]={total:0,done:0};
+      subjStats[t.subject].total++;
+      if(done)subjStats[t.subject].done++;
+    }));
+    totalAll+=gTotal; doneAll+=gDone;
+    for(const [subj,ss] of Object.entries(subjStats)){
+      rows.push({grade,subj,total:ss.total,done:ss.done,pct:ss.total?Math.round(ss.done/ss.total*100):0});
+    }
+  }
+
+  const overall = totalAll?Math.round(doneAll/totalAll*100):0;
+  c.innerHTML = `
+    <div class="stat-row" style="margin-bottom:24px">
+      <div class="stat-card"><div class="sval" style="color:var(--acc)">${overall}%</div><div class="slbl">Overall School Progress</div>
+        <div class="sbar"><div class="sfill" style="width:${overall}%;background:var(--acc)"></div></div></div>
+      <div class="stat-card"><div class="sval">${doneAll}</div><div class="slbl">Topics Completed</div></div>
+      <div class="stat-card"><div class="sval">${totalAll-doneAll}</div><div class="slbl">Topics Remaining</div></div>
+      <div class="stat-card"><div class="sval">${totalAll}</div><div class="slbl">Total Topics (All Grades)</div></div>
+    </div>
+    <div class="grade-grid">
+      ${Object.entries(S.syllabus).map(([grade,gd])=>{
+        let gt=0,gd2=0;
+        gd.months.forEach((m,mi)=>m.topics.forEach((t,ti)=>{
+          const id=topicId(grade,mi,ti); gt++;
+          if(S.progress[id]?.completed)gd2++;
+        }));
+        const p=gt?Math.round(gd2/gt*100):0;
+        const col=p>=80?'var(--grn)':p>=50?'var(--acc)':'var(--amb)';
+        return `<div class="grade-card">
+          <div class="gc-top"><span class="gc-badge">${grade}</span><span class="gc-pct" style="color:${col}">${p}%</span></div>
+          <div class="gc-bar"><div class="gc-fill" style="width:${p}%;background:${col}"></div></div>
+          <div class="gc-subjects">
+            ${rows.filter(r=>r.grade===grade).slice(0,6).map(r=>{
+              const c2=r.pct>=80?'var(--grn)':r.pct>=50?'var(--acc)':'var(--amb)';
+              return `<div class="gc-subj"><span class="gc-subj-name">${r.subj}</span>
+                <div class="gc-subj-mini"><div class="gc-subj-bar"><div class="gc-subj-fill" style="width:${r.pct}%;background:${c2}"></div></div>
+                <span class="gc-subj-pct">${r.pct}%</span></div></div>`;
+            }).join('')}
+          </div>
+        </div>`;
+      }).join('')}
+    </div>`;
+}
+
+function renderPrincipalProgress(c){
+  // Show a table: grade × subject × month with progress
+  const rows = [];
+  for(const [grade,gd] of Object.entries(S.syllabus)){
+    const bySubjMonth = {};
+    gd.months.forEach((m,mi)=>m.topics.forEach((t,ti)=>{
+      const key = `${t.subject}|||${m.month}`;
+      if(!bySubjMonth[key]) bySubjMonth[key]={subject:t.subject,month:m.month,total:0,done:0};
+      bySubjMonth[key].total++;
+      if(S.progress[topicId(grade,mi,ti)]?.completed) bySubjMonth[key].done++;
+    }));
+    for(const v of Object.values(bySubjMonth)) rows.push({grade,...v,pct:v.total?Math.round(v.done/v.total*100):0});
+  }
+
+  c.innerHTML = `<div style="overflow-x:auto">
+    <table class="prog-table">
+      <thead><tr><th>Grade</th><th>Subject</th><th>Month</th><th>Progress</th><th>Done/Total</th></tr></thead>
+      <tbody>
+        ${rows.map(r=>{
+          const col=r.pct>=80?'var(--grn)':r.pct>=50?'var(--acc)':'var(--amb)';
+          return `<tr>
+            <td class="ptd-grade">${r.grade}</td>
+            <td class="ptd-subject">${r.subject}</td>
+            <td class="ptd-month">${r.month}</td>
+            <td><div class="ptd-bar">
+              <div class="ptd-bar-inner"><div class="ptd-bar-fill" style="width:${r.pct}%;background:${col}"></div></div>
+              <span class="ptd-pct" style="color:${col}">${r.pct}%</span>
+            </div></td>
+            <td style="color:var(--t2);font-size:12.5px">${r.done}/${r.total}</td>
+          </tr>`;
+        }).join('')}
+      </tbody>
+    </table>
+  </div>`;
+}
+
+function renderPrincipalExams(c){
+  // Show topics per exam across all grades
+  let html = '';
+  for(const exam of EXAMS){
+    const items = [];
+    for(const [grade,gd] of Object.entries(S.syllabus)){
+      gd.months.forEach((m,mi)=>m.topics.forEach((t,ti)=>{
+        const id = topicId(grade,mi,ti);
+        if((S.exams[id]||[]).includes(exam)){
+          items.push({grade, subject:t.subject, topic:t.topic, ch:t.ch, id,
+            done:!!S.progress[id]?.completed});
+        }
+      }));
+    }
+    const col = EXAM_COLORS[exam];
+    html += `<div class="exam-section">
+      <h3>
+        <span class="exam-badge-lg" style="background:${col}22;color:${col};border:1px solid ${col}44">${exam}</span>
+        <span style="color:var(--t2);font-size:14px;font-weight:400">${items.length} topics tagged</span>
+      </h3>
+      ${items.length ? `<div class="exam-topic-list">
+        ${items.map(it=>`<div class="etl-item">
+          <div class="etl-grade">${it.grade} · ${it.subject}</div>
+          <div class="etl-topic">${it.topic||'—'} ${it.done?'<span style="color:var(--grn);font-size:11px">✓ Done</span>':''}</div>
+          ${it.ch?`<div class="etl-ch">${it.ch}</div>`:''}
+        </div>`).join('')}
+      </div>` : `<p style="color:var(--t3);font-size:13px;padding:16px 0">No topics tagged for ${exam} yet.</p>`}
+    </div>`;
+  }
+  c.innerHTML = html;
+}
+
+// ══════════════════════════════════════════════════════════════
+//  HELPERS
+// ══════════════════════════════════════════════════════════════
+function topicId(grade, mi, ti){ return `${grade}_m${mi}_t${ti}`; }
+function escJ(s){ return encodeURIComponent(s||''); }
+
+function showView(id){
+  ['view-dashboard','view-grade','view-principal'].forEach(v=>{
+    document.getElementById(v).classList.toggle('hidden', v!==id);
+  });
+}
+
+function showDashboard(){
+  S.currentGrade = null;
+  showView('view-dashboard');
+  updateHdrTab(0);
+  showDashboard();
+}
+// replace the self-call above
+function showDashboard(){
+  S.currentGrade = null;
+  showView('view-dashboard');
+  document.querySelectorAll('.htab').forEach((t,i)=>t.classList.toggle('active',i===0));
+  // Defer to avoid infinite
+  buildDashboard();
+}
+function buildDashboard(){
+  showView('view-dashboard');
+  let totalAll=0,doneAll=0;
+  const gradeStats = {};
+  for(const [grade,gd] of Object.entries(S.syllabus)){
+    let total=0,done=0; const subjStats={};
+    gd.months.forEach((m,mi)=>m.topics.forEach((t,ti)=>{
+      const id=topicId(grade,mi,ti); total++;
+      const isDone = !!(S.pending[id]?.completed ?? S.progress[id]?.completed);
+      if(isDone)done++;
+      if(!subjStats[t.subject])subjStats[t.subject]={total:0,done:0};
+      subjStats[t.subject].total++;
+      if(isDone)subjStats[t.subject].done++;
+    }));
+    gradeStats[grade]={total,done,subjects:subjStats};
+    totalAll+=total; doneAll+=done;
+  }
+  const pct=totalAll?Math.round(doneAll/totalAll*100):0;
+  const sr=document.getElementById('stat-row');
+  sr.innerHTML=`
+    <div class="stat-card"><div class="sval" style="color:var(--acc)">${pct}%</div><div class="slbl">Overall Completion</div>
+      <div class="sbar"><div class="sfill" style="width:${pct}%;background:var(--acc)"></div></div></div>
+    <div class="stat-card"><div class="sval">${doneAll}</div><div class="slbl">Topics Completed</div></div>
+    <div class="stat-card"><div class="sval">${totalAll-doneAll}</div><div class="slbl">Topics Pending</div></div>
+    <div class="stat-card"><div class="sval">${totalAll}</div><div class="slbl">Total Topics</div></div>`;
+  const gg=document.getElementById('grade-grid');
+  gg.innerHTML=Object.entries(gradeStats).map(([grade,gs])=>{
+    const p=gs.total?Math.round(gs.done/gs.total*100):0;
+    const color=p>=80?'var(--grn)':p>=50?'var(--acc)':'var(--amb)';
+    const subjRows=Object.entries(gs.subjects).slice(0,5).map(([s,ss])=>{
+      const sp=ss.total?Math.round(ss.done/ss.total*100):0;
+      return `<div class="gc-subj"><span class="gc-subj-name">${s}</span>
+        <div class="gc-subj-mini"><div class="gc-subj-bar"><div class="gc-subj-fill" style="width:${sp}%;background:${color}"></div></div>
+        <span class="gc-subj-pct">${sp}%</span></div></div>`;
+    }).join('');
+    return `<div class="grade-card" onclick="openGrade('${grade}')">
+      <div class="gc-top"><span class="gc-badge">${grade}</span><span class="gc-pct" style="color:${color}">${p}%</span></div>
+      <div class="gc-bar"><div class="gc-fill" style="width:${p}%;background:${color}"></div></div>
+      <div class="gc-subjects">${subjRows}</div>
+    </div>`;
+  }).join('');
+}
+
+function updateHdrTab(idx){
+  document.querySelectorAll('.htab').forEach((t,i)=>t.classList.toggle('active',i===idx));
+}
+
+async function api(url, method='GET', body=null){
+  const opts = {method, headers:{'Content-Type':'application/json'}};
+  if(body) opts.body = JSON.stringify(body);
+  const r = await fetch(url, opts);
+  if(!r.ok){ const d=await r.json().catch(()=>({})); throw new Error(d.error||r.statusText); }
+  return r.json();
+}
+
+let toastT;
+function toast(msg){
+  const el=document.getElementById('toast');
+  el.textContent=msg; el.style.opacity=1; el.style.transform='translateX(-50%) translateY(0)';
+  clearTimeout(toastT);
+  toastT=setTimeout(()=>{el.style.opacity=0;el.style.transform='translateX(-50%) translateY(20px)';},2600);
+}
+
+// Override showDashboard to avoid recursive call issue
+window.showDashboard = function(){
+  S.currentGrade = null;
+  document.querySelectorAll('.htab').forEach((t,i)=>t.classList.toggle('active',i===0));
+  buildDashboard();
+};
+</script>
+</body>
+</html>
